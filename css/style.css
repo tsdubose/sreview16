@@ -1,0 +1,43 @@
+@media screen{
+#splashGrid {
+}
+
+}
+#splashMast {
+	margin-left: auto;
+	margin-right: auto;
+	position: absolute;
+	margin-bottom: 0%;
+}
+#splashIMG {
+
+
+
+
+}
+#splashAccent {
+	margin-top: 5px;
+	margin-bottom: 5%;
+}
+#splashEnter {
+	margin-top: 5%;
+	margin-left: auto;
+	margin-right: auto;
+	float: none;
+
+}
+#splashRow {
+	top: 10%;
+}
+
+@media (min-width:768px){
+#splashIMG {
+	margin-top: 30%;
+	float: right;
+	max-height: 720px;
+}
+
+}
+#splashBod {
+	background-color: #000000;
+}
