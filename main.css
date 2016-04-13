@@ -1,0 +1,14 @@
+@charset "utf-8";
+.navbar-toggle {
+    width: 100%;
+    float: none;
+    margin: 0 auto;
+    border-width:0;
+    border-radius:0;
+}
+
+.hamburgler {
+	color: #FCFCFC;
+	font-size: 2em;
+	
+}
