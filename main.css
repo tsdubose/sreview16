@@ -10,5 +10,41 @@
 .hamburgler {
 	color: #FCFCFC;
 	font-size: 2em;
+	visibility: hidden;
 	
+}
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:center;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+.floatingSocials {
+	
+}
+.masthead {
+	max-height: 3em;
+}
+.myNav {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+@media (max-width:768px){
+.myNav {
+	position: fixed; bottom: 0; left: 0; width: 100%; margin: 0;
+}
+.hamburgler {
+	visibility: visible;
+}
+
+
 }
