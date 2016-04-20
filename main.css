@@ -1,16 +1,22 @@
 @charset "utf-8";
-.navbar-toggle {
-    width: 100%;
-    float: none;
-    margin: 0 auto;
-    border-width:0;
-    border-radius:0;
+
+@import url(https://fonts.googleapis.com/css?family=Simonetta|Roboto|Satisfy);
+
+body {
+	font-family: 'Roboto', sans-serif;
 }
 
-.hamburgler {
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Simonetta', cursive;
+}
+
+.accentText {
+	font-family: 'Satisfy', cursive;
+}
+
+ .hamburgler {
 	color: #FCFCFC;
-	font-size: 2em;
-	visibility: hidden;
+	display:none;
 	
 }
 /* centered columns styles */
@@ -24,7 +30,9 @@
 	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
+	color: white;
 }
+
 #logo   {
 	margin-top: 1em;
 }
@@ -33,8 +41,6 @@
 	width: 100%;
 	bottom: 2%;
 	z-index: 0;
-
-
 }
 .articleImage {
 	float: right;
@@ -43,8 +49,22 @@
 .mainText {
 	z-index: -1;
 }
+.authorName {
 
+}
 
+.navbar .nav li {
+    width: 100px; /* or whatever width you want for items */
+    display: inline-block;
+    float: none;
+}
+.navbar .nav {
+    float: none;
+    text-align: center;
+}
+.articleImage {
+	max-height: 30em;
+}
 
 @media (max-width:768px){
 .myNav {
@@ -56,11 +76,23 @@
 }
 .hamburgler {
 	visibility: visible;
+	font-size: 2em;
 }
 #mediaIcons {
 	bottom: 8%;
 }
 
+.navbar-toggle {
+	float: none;
+	margin-left: 45%;
+}
+}
 
+@media (min-width:992px){
+.mainText {
+
+
+
+}
 
 }

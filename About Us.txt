@@ -1,0 +1,29 @@
+<h2>Editorial</h2>
+	<h3>EIC</h3>
+		<h4>Lisa Hannon</h4>
+	<h3>Managing Editor</h3>
+		<h4>Pete Bruvik</h4>
+	<h3>Associate Editors</h3>
+		<h4>Greg Hennis</h4>
+		<h4>Maggie Montalto</h4>
+		<h4>China Owens</h4>
+		<h4>John Patouhas</h4>
+
+<h2>Copywriting</h2>
+	<h3>Copy Chief</h3>
+		<h4>Jessica Campbell</h4>
+	<h3>Associate Copywriters</h3>
+		<h4>Beatrice Milhim</h4>
+		<h4>Omar Samaniego</h4>
+		<h4>Mark Shuts</h4>
+
+<h2>Art</h2>
+	<h3>Art Director</h3>
+		<h4>Breanna Sipple</h4>
+	<h3>Associate Artists</h3>
+		<h4>Attallah Jenkins</h4>
+		<h4>Moises Figueroa Ramirez</h4>
+		<h4>Francesco Sorisi</h4>
+
+<h2>Faculty Advisor</h2>
+	<h4>Travis DuBose</h4>
