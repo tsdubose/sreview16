@@ -21,6 +21,14 @@ h1, h2, h3, h4, h5, h6 {
 	font-size: 1.3em;
 	color: #970004;
 }
+a {
+	color: #970004;
+}
+a:hover {
+	color: #632627;
+}
+
+
 
  .hamburgler {
 	color: #FCFCFC;
@@ -66,13 +74,14 @@ h1, h2, h3, h4, h5, h6 {
 	padding-bottom: 2em;
 	padding-left: 2em;
 	background-color: #FFFFFF;
+	margin-bottom: 2em;
 }
 .authorName {
 
 }
 
 .navbar .nav li {
-    width: 100px; /* or whatever width you want for items */
+    width: 150px;
     display: inline-block;
     float: none;
 }
@@ -101,6 +110,13 @@ h2 {
 	padding-bottom: 2em;
 	padding-left: 2em;
 }
+#contactMe {
+	margin-bottom: 8em;
+	margin-top: 8em;
+
+
+}
+
 
 
 
