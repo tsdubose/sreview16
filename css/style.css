@@ -8,55 +8,64 @@ body {
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Simonetta', cursive;
 }
-@media screen{
-#splashGrid {
+.issueNumber {
+	color: #FFFFFF;
 }
+.splashWrap {
+	z-index: 1;
 
 }
-#splashMast {
-	margin-left: auto;
-	margin-right: auto;
-	position: absolute;
-	margin-bottom: 0%;
+.splashIMG {
+	z-index: -1;
 }
-#splashIMG {
 
 
 
+@media (max-width:991px){
+.splashWrap {
+	margin-top: 5em;
 
 }
-#splashAccent {
-	margin-top: 5px;
-	margin-bottom: 5%;
-}
-#splashEnter {
-	margin-top: 5%;
-	margin-left: auto;
-	margin-right: auto;
-	float: none;
-
-}
-#splashRow {
+.splashIMG {
+	position: fixed;
 	top: 10%;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 992px;
 }
 
-@media (min-width:768px){
-#splashIMG {
-	margin-top: 30%;
-	float: right;
-	max-height: 720px;
-}
 
 }
-#splashBod {
-	background-color: #970004;
+
+@media (max-width:767px){
+body {
+
+}
+.splashIMG {
+	max-width: 500px;
+
+
+}
+
+
 }
 
 @media (min-width:992px){
-#splashIMG {
-	position: fixed;
-	top: -35%;
-	left: 40%;
+body {
+
+
 }
+.splashIMG {
+	max-width: 50%;
+	position: fixed;
+	top: 10%;
+	left: 45%;
+
+}
+.splashWrap {
+	margin-top: 10%;
+}
+
+
 
 }

@@ -43,7 +43,6 @@ a:hover {
 	max-height: 3em;
 }
 .myNav {
-	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
 	color: white;
@@ -116,6 +115,10 @@ h2 {
 
 
 }
+.contentsText {
+	background-color: #FFFFFF;
+}
+
 
 
 
