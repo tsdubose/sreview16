@@ -121,6 +121,31 @@ h2 {
 .contentsText {
 	background-color: #FFFFFF;
 }
+.headerMast {
+	z-index: 1;
+	position: absolute;
+	top: 24px;
+	left: 14px;
+
+}
+.headerIMG {
+	position: relative;
+	top: 0px;
+	min-width: 100%;
+
+}
+.mastWrap {
+	position: relative;
+	top: 0px;
+	left: 0px;
+}
+.mastLogo {
+	position: absolute;
+}
+
+
+
+
 
 @media (max-width:768px){
 .myNav {
@@ -145,6 +170,16 @@ h2 {
 h4 {
 	font-size: 1.5em;
 }
+.headerMast {
+	position: absolute;
+	top: 6%;
+}
+.mastLogo {
+	top: 25%;
+	left: 75%;
+}
+
+
 
 
 
@@ -193,6 +228,18 @@ h4 {
 
 
 }
+.headerMast {
+	position: absolute;
+	top: 15%;
+}
+.mastLogo {
+	left: 80%;
+	top: 12%;
+}
+
+
+
+
 
 
 
@@ -219,6 +266,17 @@ h4 {
 .featuredArticle {
 	display: none;
 }
+.headerMast {
+	position: absolute;
+	top: 4%;
+}
+.mastLogo {
+	left: 74%;
+	top: 4%;
+}
+
+
+
 
 
 
@@ -240,6 +298,24 @@ h4 {
 .figure-caption {
 	text-align: center;
 }
+.headerMast {
+	position: absolute;
+	left: 2%;
+	top: 11%;
+}
+.mastLogo {
+	top: 10%;
+	left: 70%;
+}
 
+
+
+
+}
+
+@media (min-width:1200px){
+.headerMast {
+	max-height: none;
+}
 
 }
