@@ -5,12 +5,10 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- InstanceBeginEditable name="doctitle" -->
-	<title></title>
+	<title>Mercy Versus Murder</title>
 	<!-- InstanceEndEditable -->
 	<!-- Bootstrap -->
 	<!-- <link href="css/bootstrap.css" rel="stylesheet"> -->
-	<link href="../css/bootstrap-3.3.6.css" rel="stylesheet" type="text/css">
-	<link href="../main.css" rel="stylesheet" type="text/css">
 
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -34,13 +32,15 @@
       </div>
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="inverseNavbar1">
+	<!-- InstanceBeginEditable name="menufix" --> 
       <ul class="nav navbar-nav">
-        <li><a href="home.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Home</a></li>
-        <li><a href="ScarletReviewTOC.html"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Contents</a></li>
-        <li><a href="contribs.html"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> Contributors</a></li>
-        <li><a href="contact.html"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> Contact</a></li>
-        <li><a href="aboutus.html"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> About</a></li>
+        <li><a href="../home.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Home</a></li>
+        <li class="active"><a href="../ScarletReviewTOC.html"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Contents<span class="sr-only">(current)</span></a></li>
+        <li><a href="../contribs.html"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> Contributors</a></li>
+        <li><a href="../contact.html"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> Contact</a></li>
+        <li><a href="../aboutus.html"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> About</a></li>
       </ul>
+      <!-- InstanceEndEditable -->
     </div>
     <!-- /.navbar-collapse -->
   </div>
@@ -81,7 +81,7 @@ To oversimplify, euthanasia's existence is predicated on seeking to curtail unne
   
   <p>As the conversation around euthanasia continues, one thing remains constant throughout: knowledge is necessary, especially when it involves decisions concerning human life. Regardless of side, it is imperative that information and insight on to what makes this subject so intricate and complex is available so that people in the present and future may make the most informed choices possible. While these circumstances arise, euthanasia will continue to be a morally and legally ambiguous topic that will manifest itself in courtroom discussions, hospital rooms and lastly, private domains where the question on how to best handle physical and mental suffering shall be posed time and time again by the afflicted. </p>
 
-<p>Works Cited</p>
+<h4>Works Cited</h4>
 <p>Golden, Marilyn, Tyler Zoanni. “Killing Us Softly: the Dangers of Legalizing Assisted Suicide.”
     Disability and Health Journal 16.30 (2010): 17. Web. 25 Nov. 2015.</p>
 <p>“BBC Ethics.” BBC Ethics Euthanasia Medical Burden. 2014. Web. 25 Nov. 2015
@@ -90,21 +90,34 @@ To oversimplify, euthanasia's existence is predicated on seeking to curtail unne
     Frederick, Maryland: University Publishing Group, 1992. Print.</p>
 <p>Keown, John. Euthanasia, Ethics and Public Policy - An Argument Against Legalization.
     New York, New York: Cambridge University Press, 2002. Print.</p>
-
-
-
-
-  
- 
 </div>
 </div>
 <!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="Footerfix" -->
 <footer class="footer myFoot">
 	<div class="container-fluid">
    	  	<img class="img-responsive col-xs-offset-1 col-xs-4 col-md-2 col-md-offset-3" src="../images/Rutgers_University_Camden.png" alt="Rutgers University-Camden">
          <img class="img-responsive col-xs-4 col-xs-offset-2 col-md-2 col-md-offset-4 col-lg-offset-2" src="../images/WDL%20LogoTransBG.png" alt="A project of The Writing and Design Lab">
     </div>
 </footer>
+<!-- InstanceEndEditable -->
+<noscript id="deferred-styles">
+<link rel="stylesheet" type="text/css" href="../css/bootstrap-3.3.6.css"/>
+<link href="../main.css" rel="stylesheet" type="text/css">
+</noscript>
+<script>
+      var loadDeferredStyles = function() {
+        var addStylesNode = document.getElementById("deferred-styles");
+        var replacement = document.createElement("div");
+        replacement.innerHTML = addStylesNode.textContent;
+        document.body.appendChild(replacement)
+        addStylesNode.parentElement.removeChild(addStylesNode);
+      };
+      var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+          webkitRequestAnimationFrame || msRequestAnimationFrame;
+      if (raf) raf(function() { window.setTimeout(loadDeferredStyles, 0); });
+      else window.addEventListener('load', loadDeferredStyles);
+    </script>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
   <script src="../js/jquery-1.11.3.min.js"></script>
 
