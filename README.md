@@ -1,2 +1,2 @@
-# sreview16
-Oh, you know.
+# Scarlet Review
+Repository for Rutgers-Camden's Scarlet Review magazine.
