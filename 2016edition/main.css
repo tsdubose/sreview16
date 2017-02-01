@@ -1,0 +1,321 @@
+@charset "utf-8";
+
+@import url(https://fonts.googleapis.com/css?family=Simonetta|Roboto|Satisfy);
+
+body {
+	font-family: 'Roboto', sans-serif;
+	background-color: #EBEBEB;
+	font-size: 1.5em;
+}
+h1 {
+	font-size: 2.5em;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Simonetta', cursive;
+}
+
+.accentText {
+	font-family: 'Satisfy', cursive;
+	font-size: 1.3em;
+	color: #970004;
+}
+a {
+	color: #970004;
+}
+a:hover {
+	color: #632627;
+}
+
+.container-full {
+  margin: 0 auto;
+  width: 100%;
+}
+
+ .hamburgler {
+	color: #FCFCFC;
+	display:none;
+	
+}
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+.masthead {
+	max-height: 3em;
+}
+.myNav {
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+	z-index: 1;
+}
+
+#logo   {
+	margin-top: 1em;
+}
+#mediaIcons {
+	position: fixed;
+	width: 100%;
+	bottom: 2%;
+	z-index: 1;
+}
+.articleImage {
+	margin-left: 15px;
+}
+.imageWrap {
+	float: right;
+	margin-bottom: 15px;
+}
+
+.mainText {
+	padding-top: 2em;
+	padding-right: 2em;
+	padding-bottom: 2em;
+	padding-left: 2em;
+	background-color: #FFFFFF;
+	margin-bottom: 2em;
+}
+.authorName {
+
+}
+
+.navbar .nav li {
+    width: 150px;
+    display: inline-block;
+    float: none;
+}
+.navbar .nav {
+    float: none;
+    text-align: center;
+}
+.articleImage {
+	max-height: 30em;
+	max-width: 18em;
+}
+.figure-caption {
+	text-align: right;
+	margin-top: -16px;
+}
+.myFoot {
+	margin-top: 15px;
+
+}
+h2 {
+
+}
+.editorText {
+	background-color: #FFFFFF;
+	padding-top: 2em;
+	padding-right: 2em;
+	padding-bottom: 2em;
+	padding-left: 2em;
+}
+#contactMe {
+	margin-bottom: 8em;
+	margin-top: 8em;
+
+
+}
+.contentsText {
+	background-color: #FFFFFF;
+}
+.headerMast {
+	z-index: 1;
+	position: absolute;
+	top: 24px;
+	left: 14px;
+
+}
+.headerIMG {
+	position: relative;
+	top: 0px;
+	min-width: 100%;
+
+}
+.mastWrap {
+	position: relative;
+	top: 0px;
+	left: 0px;
+}
+.mastLogo {
+	position: absolute;
+}
+
+
+
+
+
+@media (max-width:768px){
+.myNav {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	margin: 0;
+}
+.hamburgler {
+	visibility: visible;
+	font-size: 2em;
+}
+#mediaIcons {
+	bottom: 8%;
+}
+
+.navbar-toggle {
+	float: none;
+	margin-left: 45%;
+}
+h4 {
+	font-size: 1.5em;
+}
+.headerMast {
+	position: absolute;
+	top: 6%;
+}
+.mastLogo {
+	top: 25%;
+	left: 75%;
+}
+
+
+
+
+
+
+
+
+}
+
+@media (min-width:992px){
+.mainText {
+
+
+
+}
+.accentText.accentTextSmall {
+	display: none;
+}
+.accentText.accentTextLarge {
+	position: static;
+	margin-top: 25%;
+
+
+
+
+
+
+}
+.myNav {
+	opacity: 0.95;
+	filter: Alpha(opacity=95);
+	position: relative;
+	top: -50px;
+	max-height: 4em;
+
+}
+.masthead {
+
+
+
+}
+.mastContainer {
+	padding-top: 0px;
+}
+.headerIMG {
+	min-width: 100%;
+
+
+}
+.headerMast {
+	position: absolute;
+	top: 15%;
+}
+.mastLogo {
+	left: 80%;
+	top: 12%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+@media (max-width:991px){
+.accentText.accentTextLarge {
+	display: none;
+}
+.accentText.accentTextSmall {
+	margin-top: 3em;
+	margin-bottom: 3em;
+}
+.articleImage {
+	max-height: 250px;
+
+}
+.featuredArticle {
+	display: none;
+}
+.headerMast {
+	position: absolute;
+	top: 4%;
+}
+.mastLogo {
+	left: 74%;
+	top: 4%;
+}
+
+
+
+
+
+
+
+}
+
+@media (max-width:500px){
+.imageWrap {
+	display: block;
+	float: none;
+	left: 81px;
+}
+.articleImage {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 100%;
+}
+
+.figure-caption {
+	text-align: center;
+}
+.headerMast {
+	position: absolute;
+	left: 2%;
+	top: 11%;
+}
+.mastLogo {
+	top: 10%;
+	left: 70%;
+}
+
+
+
+
+}
+
+@media (min-width:1200px){
+.headerMast {
+	max-height: none;
+}
+
+}
