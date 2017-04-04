@@ -1,0 +1,19 @@
+extends includes/layout
+
+block content
+	-var content = page.content
+	-var articleAuthor = page.author
+	-var artistCredit = page.artist
+	-var headerLink = page.headerimage
+	style.
+		.title-marquee {background-image: url(#{headerLink});}
+	article
+		div.title-marquee
+			h1= page.title
+		div.authorship
+			div.article-author
+				p written by #{articleAuthor}
+			if artistCredit
+				div.article-artist
+					p art by #{artistCredit}
+		div.article-content !{content}

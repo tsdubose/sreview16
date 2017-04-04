@@ -1,0 +1,26 @@
+- var pageTitle = page.title || config.subtitle || ''
+
+doctype html
+html(lang=config.language)
+	head
+		meta(charset='UTF-8')
+		title= pageTitle
+		link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css")
+		link(rel="stylesheet", href="css/main.css")
+	body
+		header
+			div.masthead
+				include masthead.svg
+			nav
+				ul.main-nav
+					li.nav-item
+						a.nav-link(href="#") Home
+					li.nav-item
+						a.nav-link(href="#") Contents
+					li.nav-item
+						a.nav-link(href="#") Contact
+		main
+			block content
+		div.footer
+			div.logo1
+			div.logo2
