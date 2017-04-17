@@ -3,13 +3,8 @@ title: Test
 author: Travis DuBose
 layout: article
 headerimage: img/test.jpg
-category: scholarly
 ---
-<<<<<<< Updated upstream
-### Testing Testing Blah Test upstream
-=======
 ### Testing Testing
->>>>>>> Stashed changes
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum iaculis, magna ac finibus dignissim, erat erat aliquam lectus, et consequat diam nisi quis est. Integer porta tempus sodales. Donec pharetra tincidunt convallis. Phasellus mattis justo eu tellus viverra elementum. Etiam iaculis felis vitae erat posuere, eu rutrum erat dictum. Fusce convallis sapien quis est vehicula, ac iaculis nulla imperdiet. Etiam nec nulla non mauris lacinia cursus a ut dui. Donec quis ultrices justo. Donec aliquet ipsum non elit tempus rutrum. Nulla posuere dolor et lorem ornare, et gravida sem porttitor.
 
 Suspendisse tempor pellentesque varius. Aenean in vestibulum ante. Sed ornare interdum quam quis mattis. Curabitur vestibulum risus eget felis tempor faucibus. Aenean dapibus dolor euismod lorem efficitur posuere. Suspendisse eu facilisis magna, nec mollis risus. Phasellus et vulputate justo. Pellentesque efficitur augue eget justo dictum convallis. Suspendisse elit neque, egestas eget tempus eget, maximus at est. Morbi ligula sem, luctus in tincidunt non, dictum ac neque. Integer maximus sem eget sem dapibus mollis.

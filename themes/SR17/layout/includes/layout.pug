@@ -7,18 +7,41 @@ html(lang=config.language)
 		title= pageTitle
 		link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css")
 		link(rel="stylesheet", href="css/main.css")
+		<script src="https://use.typekit.net/tie2vbh.js"></script>
+		<script>try{Typekit.load({ async: true });}catch(e){}</script>
+		<meta name="viewport" content="width=device-width" />
 	body
 		header
+			div.testblock
 			div.masthead
 				include masthead.svg
 			nav
 				ul.main-nav
 					li.nav-item
-						a.nav-link(href="#") Home
+						a.nav-link(href="index.html")
+							include home.svg
+							.
+								Home
 					li.nav-item
-						a.nav-link(href="#") Contents
+						a.nav-link(href="contents.html")
+							include book.svg
+							.
+								Contents
 					li.nav-item
-						a.nav-link(href="#") Contact
+						a.nav-link(href="contributors.html")
+							include pencil.svg
+							.
+								Contributors
+					li.nav-item
+						a.nav-link(href="archive/2016edition/index.html")
+							include folder-open-o.svg
+							.
+								Archives
+					li.nav-item
+						a.nav-link(href="about.html")
+							include search.svg
+							.
+								About
 		main
 			block content
 		div.footer

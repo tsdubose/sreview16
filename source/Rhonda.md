@@ -2,7 +2,8 @@
 title: Rhonda
 author: Sam Lyons
 layout: article
-headerimage:
+headerimage: img/header-rhonda.jpg
+accentimage: img/accent-image-rhonda.jpg
 ---
 In life, every American remembers two things — their first car and their first love. It was August 20, 2002, one of my last days of that year’s summer camp, when my father picked me up in our new family hauler — a dark red Honda CR-V that he and my mother affectionately named Rhonda. My first love. Rhonda the Honda. To say Rhonda was pretty would have to be said with strange facial contortions; it would be said through squinted eyes and a voice a few octaves higher than usual, usually accompanied by a shrug or six. But she was a Honda and that meant she was cheap and very reliable, something perfect for our little middle class family. She was a replacement for my mother’s fourteen-year-old Honda Civic, called Wanda the Honda, oddly enough. The only memory I had of Wanda was a huge spider crushed in one of the doors that literally mentally scarred me for life. No wonder I didn’t mind seeing Wanda go. Plus, now we had Rhonda. Rhonda would shoulder our burdens on long trips to Cooperstown, Boston, or even just the sandy shores of Stone Harbor.
 

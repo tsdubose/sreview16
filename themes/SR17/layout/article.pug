@@ -1,10 +1,15 @@
 extends includes/layout
 
 block content
-	-var content = page.content
-	-var articleAuthor = page.author
-	-var artistCredit = page.artist
-	-var headerLink = page.headerimage
+	-
+		var articleAuthor = page.author
+		var artistCredit = page.artist
+		var headerLink = page.headerimage
+		var accentText = page.accenttext
+		var accentImage = page.accentimage
+		var content = parse5(page.content, accentImage, accentText)
+		
+		
 	style.
 		.title-marquee {background-image: url(#{headerLink});}
 	article
