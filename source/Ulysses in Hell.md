@@ -3,7 +3,7 @@ title: Ulysses in Hell
 author: Kathrine Christy
 layout: article
 headerimage: img/header-ulyssesinhell.jpg
-accenttext: “The presence of Ulysses in the hell built by Dante is both a commentary on the Classical tradition of such a figure as well as an indicator of the vast change in moral systems represented by the Judeo-Christian tradition within which Dante is working.” from Ulysses in Hell
+accenttext: “The presence of Ulysses in the hell built by Dante is both a commentary on the Classical tradition of such a figure as well as an indicator of the vast change in moral systems represented by the Judeo-Christian tradition within which Dante is working.”
 accentimage: img/accent-image-ulyssesinhell.jpg
 ---
 
