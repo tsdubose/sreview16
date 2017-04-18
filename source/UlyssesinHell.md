@@ -60,10 +60,10 @@ The presence of Ulysses in the hell built by Dante is both a commentary on the C
 
 
 ### Works Cited
-Dante. Inferno. Trans. Robert Hollander and Jean Hollander. New York: Random House, 2003. Print.
+Dante. *Inferno*. Trans. Robert Hollander and Jean Hollander. New York: Random House, 2003. Print.
 
 "Matthew 8:12 But the subjects of the kingdom will be thrown outside, into the darkness, where there will be weeping and gnashing of teeth."." Matthew 8:12 But the subjects of the kingdom will be thrown outside, into the darkness, where there will be weeping and gnashing of teeth.". N.p., n.d. Web. 15 Dec. 2016.
 
-Virgil. The Aeneid. Trans. Robert Fitzgerald. New York: Random House, 1983. Print.
+Virgil. *The Aeneid*. Trans. Robert Fitzgerald. New York: Random House, 1983. Print.
 
-Homer. The Odyssey. Trans. Robert Fitzgerald. New York: Farrar, Straus, and Giroux, 1998. Print.
+Homer. *The Odyssey*. Trans. Robert Fitzgerald. New York: Farrar, Straus, and Giroux, 1998. Print.

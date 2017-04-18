@@ -10,7 +10,6 @@
 *Clara Cribb*
 [Depressive Ways](depressiveways.html)
 
-
 ## Understanding Our Era of Intolerance
 *Sabah Halim*
 [Understanding Our Era of Intolerance](understandingoureraofintolerance.html)
