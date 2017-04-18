@@ -5,14 +5,16 @@ $large-screen: 960px;
 
 // Typography
 $base-font-family: "Georgia", serif;
-$heading-font-family: "Kepler Bold", serif;
+$heading-font-family: "kepler-std-display";
+$heading-font-weight: 700;
+$heading-font-variant: italic;
 
 // Font Sizes
 $base-font-size: 1.2em;
 $caption-size: 1.05em;
 
 // Line height
-$base-line-height: 1.66;
+$base-line-height: 1.76;
 $heading-line-height: 1.2;
 
 // Other Sizes
@@ -30,13 +32,15 @@ $light-gray: #ddd;
 // Font Colors
 $base-font-color: $dark-gray;
 $action-color: $blue;
+$title-color: #cf142b;
+$accent-text-color: #cf142b;
 
 // Border
 $base-border-color: $light-gray;
 $base-border: 1px solid $base-border-color;
 
 // Background Colors
-$base-background-color: #fff;
+$base-background-color: #f2f2f2;
 $secondary-background-color: tint($base-border-color, 75%);
 
 // Forms
@@ -46,6 +50,10 @@ $form-box-shadow-focus: $form-box-shadow, 0 0 5px adjust-color($action-color, $l
 // Animations
 $base-duration: 150ms;
 $base-timing: ease;
+$base-transition: all 250ms ease-in-out;
+
+//SVGs
+$svg-desktop-size: 42px;
 
 @mixin breakpoint($min-width) {
 	@media only screen and (min-width: $min-width) { @content; }

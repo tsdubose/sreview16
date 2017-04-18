@@ -3,7 +3,6 @@ title: Test
 author: Travis DuBose
 layout: article
 headerimage: img/test.jpg
-category: scholarly
 ---
 ### Testing Testing
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum iaculis, magna ac finibus dignissim, erat erat aliquam lectus, et consequat diam nisi quis est. Integer porta tempus sodales. Donec pharetra tincidunt convallis. Phasellus mattis justo eu tellus viverra elementum. Etiam iaculis felis vitae erat posuere, eu rutrum erat dictum. Fusce convallis sapien quis est vehicula, ac iaculis nulla imperdiet. Etiam nec nulla non mauris lacinia cursus a ut dui. Donec quis ultrices justo. Donec aliquet ipsum non elit tempus rutrum. Nulla posuere dolor et lorem ornare, et gravida sem porttitor.

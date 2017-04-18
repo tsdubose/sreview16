@@ -10,6 +10,16 @@ body {
 header {
 	padding-top: $base-spacing;
 }
+
+.testblock {
+	background-color: blue;
+	width: 500px;
+	height: 500px;
+	display: none;
+	@include breakpoint($large-screen) {
+		display: block;
+	}
+}
 .main-nav {
 	display: flex;
 	justify-content: space-around;
@@ -20,6 +30,27 @@ header {
 
 	li {
 		margin-left: $small-spacing;
+
+		a {
+			width: 100%;
+			height: 100%;
+			color: $base-font-color;
+			transition: $base-transition;
+		}
+
+		a:hover{
+			color: $accent-text-color;
+			svg {
+				fill: $accent-text-color;
+			}
+		}
+		svg {
+			width: $svg-desktop-size;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			transition: $base-transition;
+		}
 	}
 
 	li:last-child {
@@ -36,18 +67,27 @@ article {
 
 	@include breakpoint($large-screen) {
 		width: $base-spacing * 20;
+		padding: $base-spacing 0 0;
 		margin-left: auto;
 		margin-right: auto;
 	}
 }
 
 .title-marquee {
-	background-size: 100%;
-	height: $base-spacing * 5;
-	padding: $base-spacing * 2;
-
+	background-size: cover;
+	padding: $base-spacing;
+	margin-left: $base-spacing;
+	margin-right: $base-spacing;
+	height: 50vw;
+	@include breakpoint ($large-screen) {
+		height: 480px;
+	}
 	h1 {
 		margin: 0;
+		font-family: $heading-font-family;
+		font-weight: $heading-font-weight;
+		font-style: italic;
+		font-size: 2.236em;
 	}
 }
 
@@ -64,4 +104,21 @@ article {
 	svg {
 		height: $base-spacing * 5;
 	}
+}
+
+.accent-image,
+.accent-text {
+	display: block;
+	width: 100%;
+	margin: $base-spacing 0;
+
+	@include breakpoint($large-screen) {
+		float: right;
+		width: 50%;
+		margin-left: $small-spacing;
+	}
+}
+
+.accent-text {
+	color: $accent-text-color;
 }
