@@ -1,6 +1,6 @@
 ## Vengeance, The Night, and Batman: High Art In Comics and Cartoons
 *Albert Mancao*
-  [Vengeance, The Night, and Batman: High Art In Comics and Cartoons](batman.html)
+  [Vengeance, The Night, and Batman: High Art In Comics and Cartoons](vengeancethenightandbatmanhighartincomicsandcartoons.html)
 
 ## Dear Prejudice
 *Trinh Nguyen*
@@ -24,7 +24,7 @@
 
 ##  That Perfect Girl is Gone: A Look at Disney Female's Evolution
 *John Patouhas*
-[That Perfect Girl is Gone: A Look at Disney Female's Evolution](thatperfectgirlisgone.html)
+[That Perfect Girl is Gone: A Look at Disney Female's Evolution](thatperfectgirlisgonealookatdisneyfemalesevolution.html)
 
 ## Ulysses in Hell
 *Kathrine Christy*
