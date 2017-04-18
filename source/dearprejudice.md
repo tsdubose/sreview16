@@ -17,7 +17,7 @@ You make me angry, Prejudice. Not only do you belittle me as an athlete because 
 
 My choice in clothing is not the only aspect of my appearance that you judge. Prejudice, you often have ridiculous expectations and make assumptions about me because of my race. I cannot count how many times you have asked me, “Are you Chinese?” or try to convince me that Japan and China are one and the same. For your information, Japan and China are two different countries with a historically bloody relationship. You automatically think that academics comes naturally to everyone in my race. You wouldn’t know how much school stresses me out and how much effort I put into studying. You’re also always shocked about my perfect English. I don’t know why you expect my English to be poor because I’m not a foreigner; I grew up in New Jersey.
 
-Prejudice, at least when you stand alongside strangers, I have different means of releasing my frustration and anger. It’s much more difficult for me when you stand alongside the people I love, because I don’t know how to respond when you tempt the people precious to me into degrading strangers standing across the street. How do I respond when someone I love points out a tired looking man in dirty clothes and comments that the man is probably on drugs? This is all your fault, Prejudice. You corrupted their minds and I blame you for it. 
+Prejudice, at least when you stand alongside strangers, I have different means of releasing my frustration and anger. It’s much more difficult for me when you stand alongside the people I love, because I don’t know how to respond when you tempt the people precious to me into degrading strangers standing across the street. How do I respond when someone I love points out a tired looking man in dirty clothes and comments that the man is probably on drugs? This is all your fault, Prejudice. You corrupted their minds and I blame you for it.
 
 It’s also strange when I feel your presence at family parties that you’re not welcome to. I rarely invite my friends to these parties because you make them uncomfortable with your presence. Eating habits, clothing choices, height, size, facial structure, and language are only a small portion of your judging criteria. You manipulate the people around me into consenting with your views and they are at your mercy. You’re the whispered insults and the crude jokes made about my friends’ weight; to which you expect me to laugh at, but I disappoint your expectations when I don’t. You’re the dirty looks given towards my friends who adorn tattoos and piercings and I know about your attempts in manipulating my parents into believing that my friends are terrible influences for my siblings and I. Unfortunately for you, I won’t fall victim to your games. I will choose who my friends are based solely on their character and nothing else.
 
@@ -27,4 +27,5 @@ Prejudice, you already know how much I hate you. I hate seeing you everywhere I 
 
 
 
-Sincerely, XXXX Smith
+Sincerely,
+Trinh Nguyen
