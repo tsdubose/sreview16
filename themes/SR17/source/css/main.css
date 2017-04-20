@@ -312,6 +312,21 @@ article {
 	}
 }
 
+.article-content img, .page-content img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0.88em;
+	margin-bottom: 0.88em;
+}
+
+@media only screen and (min-width: 960px) {
+	.article-content img, .page-content img {
+		float: right;
+		margin: 1.76em 0 1.76em 1.76em;
+	}
+}
+
 .title-marquee {
 	background-size: cover;
 	padding: 1.76em;
@@ -332,6 +347,7 @@ article {
 	font-weight: 700;
 	font-style: italic;
 	font-size: 2.236em;
+	color: white;
 }
 
 .authorship {
@@ -349,7 +365,7 @@ article {
 .accent-image,
 .accent-text {
 	display: block;
-	width: 100%;
+	max-height: 7.04em;
 	margin: 1.76em 0;
 }
 
@@ -359,6 +375,7 @@ article {
 		float: right;
 		width: 50%;
 		margin-left: 0.88em;
+		max-height: none;
 	}
 }
 

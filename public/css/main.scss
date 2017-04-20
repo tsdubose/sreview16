@@ -71,6 +71,18 @@ article {
 		margin-left: auto;
 		margin-right: auto;
 	}
+
+	 img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: $small-spacing;
+		margin-bottom: $small-spacing;
+		@include breakpoint($large-screen) {
+			float: right;
+			margin: $base-spacing 0 $base-spacing $base-spacing;
+		}
+	}
 }
 
 .title-marquee {
@@ -88,6 +100,7 @@ article {
 		font-weight: $heading-font-weight;
 		font-style: italic;
 		font-size: 2.236em;
+		color: white;
 	}
 }
 
@@ -109,17 +122,18 @@ article {
 .accent-image,
 .accent-text {
 	display: block;
-	width: 100%;
+	max-height: $base-spacing * 4;
 	margin: $base-spacing 0;
 
 	@include breakpoint($large-screen) {
 		float: right;
 		width: 50%;
 		margin-left: $small-spacing;
+		max-height: none;
 	}
 }
 
 .accent-text {
 	color: $accent-text-color;
-	font-style: italic; 
+	font-style: italic;
 }
