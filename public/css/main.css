@@ -238,61 +238,72 @@ body {
 
 header {
 	padding-top: 1.76em;
-}
-
-.testblock {
-	background-color: blue;
-	width: 500px;
-	height: 500px;
-	display: none;
-}
-
-@media only screen and (min-width: 960px) {
-	.testblock {
-		display: block;
-	}
+	margin-bottom: 0.88em;
+	background-image: linear-gradient(-20deg, #616161 0%, #9bc5c3 100%);
 }
 
 .main-nav {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
+	padding: 0 0.88em;
+	background-color: black;
 }
 
 @media only screen and (min-width: 960px) {
 	.main-nav {
-		justify-content: flex-end;
+		padding: 0.88em 1.76em;
 	}
 }
 
 .main-nav li {
 	margin-left: 0.88em;
+	font-size: .8em;
+}
+
+@media only screen and (min-width: 960px) {
+	.main-nav li {
+		font-size: 1.2em;
+	}
 }
 
 .main-nav li a {
 	width: 100%;
 	height: 100%;
-	color: #333;
+	color: white;
 	transition: all 250ms ease-in-out;
 }
 
 .main-nav li a:hover {
-	color: #cf142b;
+	color: #9bc5c3;
 }
 
 .main-nav li a:hover svg {
-	fill: #cf142b;
+	fill: #9bc5c3;
 }
 
 .main-nav li svg {
-	width: 42px;
+	width: 30px;
+	height: 30px;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	transition: all 250ms ease-in-out;
+	fill: white;
+}
+
+@media only screen and (min-width: 960px) {
+	.main-nav li svg {
+		width: 40px;
+		height: 40px;
+	}
 }
 
 .main-nav li:last-child {
-	margin-right: 1.76em;
+	margin-right: 0;
+}
+
+.main-nav li:first-child {
+	margin-left: 0;
 }
 
 article {
@@ -328,16 +339,19 @@ article {
 }
 
 .title-marquee {
-	background-size: cover;
-	padding: 1.76em;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	padding: 0.44em 0.88em;
 	margin-left: 1.76em;
 	margin-right: 1.76em;
-	height: 50vw;
+	height: 28vw;
 }
 
 @media only screen and (min-width: 960px) {
 	.title-marquee {
 		height: 480px;
+		padding: 1.76em;
+		background-size: cover;
 	}
 }
 
@@ -346,20 +360,50 @@ article {
 	font-family: "kepler-std-display";
 	font-weight: 700;
 	font-style: italic;
-	font-size: 2.236em;
+	font-size: 1.236em;
 	color: white;
 }
 
+@media only screen and (min-width: 960px) {
+	.title-marquee h1 {
+		font-size: 2.236em;
+	}
+}
+
 .authorship {
-	padding: 1.76em;
+	padding: 0.88em 0 0 1.76em;
+}
+
+@media only screen and (min-width: 960px) {
+	.authorship {
+		padding: 0 1.76em;
+	}
 }
 
 .masthead {
-	padding-left: 1.76em;
+	padding: 0;
+}
+
+@media only screen and (min-width: 960px) {
+	.masthead {
+		padding-left: 1.76em;
+	}
 }
 
 .masthead svg {
-	height: 8.8em;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 5.28em;
+	margin-bottom: 0.88em;
+}
+
+@media only screen and (min-width: 960px) {
+	.masthead svg {
+		height: 8.8em;
+		margin-left: 8em;
+		margin-right: 0;
+	}
 }
 
 .accent-image,
@@ -380,7 +424,7 @@ article {
 }
 
 .accent-text {
-	color: #cf142b;
+	color: #9bc5c3;
 	font-style: italic;
 }
 
