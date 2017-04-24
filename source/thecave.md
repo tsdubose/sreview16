@@ -1,3 +1,10 @@
+---
+title: The Cave
+author: Samantha Procida
+layout: article
+headerimage: img/header-the-cave.jpg
+---
+
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">The Cave: A Twitter-Based World Model for <a href="https://twitter.com/hashtag/SocMediaNarrative?src=hash">#SocMediaNarrative</a> <a href="https://twitter.com/hashtag/Rutgers?src=hash">#Rutgers</a> class of 2016.</p>&mdash; Samantha Procida (@birdwithapen) <a href="https://twitter.com/birdwithapen/status/780508244859056128">September 26, 2016</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">You come upon the entrance of a cave. It’s the middle of the night. It’s dark but somehow the cave appears even darker.</p>&mdash; Samantha Procida (@birdwithapen) <a href="https://twitter.com/birdwithapen/status/780508112621043712">September 26, 2016</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">You enter and move through carefully, feeling along the wall to guide you. The surface of the rock is wet. You shiver.</p>&mdash; Samantha Procida (@birdwithapen) <a href="https://twitter.com/birdwithapen/status/780508067909730304">September 26, 2016</a></blockquote>
