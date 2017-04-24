@@ -42,10 +42,10 @@ These three characters offer a glimpse into the overall evolution of female char
 
 ### Works Cited
 England, D. E., Descartes, L., & Collier-meek, M. (2011). Gender role portrayal and the disney
-princesses. Sex Roles, 64(7-8), 555-567.doi:http://dx.doi.org/10.1007/s11199-011-9930-7
+princesses. *Sex Roles*, 64(7-8), 555-567.doi:http://dx.doi.org/10.1007/s11199-011-9930-7
 *Frozen.* Dir. Chris Buck and Jennifer Lee. Prod. Peter Del Vecho. Perf. Idina Menzel, Kristen Bell. 	Buena Vista Pictures Distribution, Inc., 2013. Film.
-González, Margarita Carretero, and María Elena Rodríguez-Martín. "Wicked Women: The Menace Lurking Behind Female Independence." At The Interface / Probing The Boundaries 57.	(2009): 199-209. Communication & Mass Media Complete. Web. 8 Apr. 2015.
-Pocahontas. Dir. Mike Gabriel and Eric Goldberg. By Carl Binder, Susannah Grant, Philip LaZebnik, Irene Bedard, Judy Kuhn, Mel Gibson, and David Ogden Stiers. Buena Vista 	Pictures Distribution, Inc., 1995. Film.
-Snow White and the Seven Dwarfs. By Walt Disney, David Hand, Perce Pearce, Larry Morey, Distributed by Buena Vista Film Distribution Co., 1937. Film.
-Zarranz, Libe Garcia. "Diswomen Strike Back? The Evolution of Disney's Femmes in the 	1990s." Atenea 27.2 (2007): 55-67. Literary Reference Center. Web. 8 Apr. 2015.
+González, Margarita Carretero, and María Elena Rodríguez-Martín. "Wicked Women: The Menace Lurking Behind Female Independence." *At The Interface / Probing The Boundaries* 57.	(2009): 199-209. *Communication & Mass Media Complete*. Web. 8 Apr. 2015.
+*Pocahontas*. Dir. Mike Gabriel and Eric Goldberg. By Carl Binder, Susannah Grant, Philip LaZebnik, Irene Bedard, Judy Kuhn, Mel Gibson, and David Ogden Stiers. Buena Vista 	Pictures Distribution, Inc., 1995. Film.
+*Snow White and the Seven Dwarfs*. By Walt Disney, David Hand, Perce Pearce, Larry Morey, Distributed by Buena Vista Film Distribution Co., 1937. Film.
+Zarranz, Libe Garcia. "Diswomen Strike Back? The Evolution of Disney's Femmes in the 	1990s." *Atenea* 27.2 (2007): 55-67. *Literary Reference Center*. Web. 8 Apr. 2015.
 Zeilinger, Julie. "Young Girls Everywhere Are Showing Disney What a Princess Really Looks Like." 	Mic. N.p., 03 Apr. 2015. Web. 08 Apr. 2015.

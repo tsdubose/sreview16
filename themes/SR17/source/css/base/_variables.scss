@@ -33,7 +33,8 @@ $light-gray: #ddd;
 $base-font-color: $dark-gray;
 $action-color: $blue;
 $title-color: #cf142b;
-$accent-text-color: #cf142b;
+$accent-text-color: #9bc5c3;
+$menu-fill-color: white;
 
 // Border
 $base-border-color: $light-gray;
@@ -53,7 +54,7 @@ $base-timing: ease;
 $base-transition: all 250ms ease-in-out;
 
 //SVGs
-$svg-desktop-size: 42px;
+$svg-desktop-size: 40px;
 
 @mixin breakpoint($min-width) {
 	@media only screen and (min-width: $min-width) { @content; }
