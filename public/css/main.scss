@@ -125,7 +125,7 @@ article {
 	padding: $small-spacing 0 0 $base-spacing;
 
 	@include breakpoint($large-screen) {
-		padding: 0 $base-spacing;
+		padding: $small-spacing $base-spacing;
 	}
 }
 
