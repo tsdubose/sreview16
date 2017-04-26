@@ -2,7 +2,7 @@
 title: The Cave
 author: Samantha Procida
 layout: article
-headerimage: img/header-the-cave.jpg
+headerimage: img/header-thecave.jpg
 ---
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">The Cave: A Twitter-Based World Model for <a href="https://twitter.com/hashtag/SocMediaNarrative?src=hash">#SocMediaNarrative</a> <a href="https://twitter.com/hashtag/Rutgers?src=hash">#Rutgers</a> class of 2016.</p>&mdash; Samantha Procida (@birdwithapen) <a href="https://twitter.com/birdwithapen/status/780508244859056128">September 26, 2016</a></blockquote>
