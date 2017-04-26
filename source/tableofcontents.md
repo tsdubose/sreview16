@@ -1,43 +1,32 @@
-## Vengeance, The Night, and Batman: High Art In Comics and Cartoons
-*Albert Mancao*
-  [Vengeance, The Night, and Batman: High Art In Comics and Cartoons](batman.html)
-
-## Dear Prejudice
+## [Dear Prejudice](dearprejudice.html)
 *Trinh Nguyen*
-[Dear Prejudice](dearprejudice.html)
 
-## Depressive Ways
+## [Depressive Ways](depressiveways.html)
 *Clara Cribb*
-[Depressive Ways](depressiveways.html)
 
-## Understanding Our Era of Intolerance
-*Sabah Halim*
-[Understanding Our Era of Intolerance](understandingoureraofintolerance.html)
-
-## Rhonda
+## [Rhonda](rhonda.html)
 *Sam Lyons*
-[Rhonda](rhonda.html)
 
-## Smells like Home
+## [Smells like Home](smellslikehome.html)
 *Aisha Bilal*
-[Smells like Home](smellslikehome.html)
 
-##  That Perfect Girl is Gone: A Look at Disney Female's Evolution
-*John Patouhas*
-[That Perfect Girl is Gone: A Look at Disney Female's Evolution](thatperfectgirlisgone.html)
-
-## Ulysses in Hell
-*Kathrine Christy*
-[Ulysses in Hell](ulyssesinhell.html)
-
-## Winter
-*Breanna Ransome*
-[Winter](winter.html)
-
-## The Cave
-*Samantha Procida*
-[The Cave](thecave.html)
-
-## Audio Essay
+## [Sunflowers](sunflowers.html)
 *Ruby Murrani*
-[Audio Essay](audioessay.html)
+
+##  [That Perfect Girl is Gone: A Look at Disney Female's Evolution](thatperfectgirlisgone.html)
+*John Patouhas*
+
+## [The Cave](thecave.html)
+*Samantha Procida*
+
+## [Ulysses in Hell](ulyssesinhell.html)
+*Kathrine Christy*
+
+## [Understanding Our Era of Intolerance](eraofintolerance.html)
+*Sabah Halim*
+
+## [Vengeance, The Night, and Batman: High Art In Comics and Cartoons](batman.html)
+*Albert Mancao*
+
+## [Winter](winter.html)
+*Breanna Ransome*
