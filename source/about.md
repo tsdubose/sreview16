@@ -1,6 +1,5 @@
 ---
 title: Staff Bios
-layout: article
 headerimage: img/header-staffbios.jpg
 ---
 **Khadedra Leach  
