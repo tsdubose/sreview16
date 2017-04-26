@@ -17,7 +17,7 @@ Between the roundhouse and palisade,
 And hack them with your swordblades till you cut  
 The life out of them, every thought of sweet  
 Aphrodite under the rutting sutors,   
-Where they lay down in secret” (487-496).
+Where they lay down in secret.” (487-496)
 
 So Odysseus seeks to humiliate these handmaidens before he has them butchered, sifting through the gore of their erstwhile lovers with the full knowledge of their own impending doom.  Thus, the reader of the *Odyssey* is confronted with a bizarre paradox: a man who slaughters suppliants who beg for their lives, and mercilessly orders the deaths of women who, given their servant status, are likely enslaved and therefore entirely unguarded against his whims;  yet this man has the tacit approval of heaven. It is the daughter of the highest god who has aided his journey thus far, and encourages and aids the slaughter (Athena in fact facilitates the test of the bow to “usher bloody slaughter in” at the beginning of Book Twenty-One). Even Virgil’s mutilated Deiphobus gives Ulysses a tacit connection to the heavens: his full nomenclature of Ulysses is, in fact, “that ringleader of atrocity...of the windking’s line (6.709-10). The “windking” being Zeus, the highest of gods (and “son of Laertes in the line of Zeus” is a frequent refrain throughout the Odyssey, another reinforcement of Odysseus’s connection with heaven). This is a strange juxtaposition to encounter, especially for a modern reader, one trained to associate the divine and the heavens with unambiguous moral purity. The presence of Ulysses in Dante’s hell therefore marks a significant change in thinking about such a character. Dante does not merely suggest retribution for the figure’s mythological crimes by condemning him to eternal punishment, but thereby actively severs any connection between Odysseus and the divine that gives him the license to carry out the deeds for which Dante sees him punished.
 
@@ -30,7 +30,7 @@ They did not worship God aright.
 And among these I am one.  
 For such defects, and for no other fault,   
 We are lost, and afflicted but in this,  
-That without hope we live in longing” (34-42).   
+That without hope we live in longing.” (34-42)   
 
 The “longing” in which these shades live is the longing for God. Their punishment is only to be excluded from such a presence. This fundamental absence of God’s presence is represented throughout by persistent assault on the senses, the presence of foul smells and a suggestion of cloying darkness. In Dante’s fifth canto, in which one finds the circle of the lustful, note is taken of the “malignant air” (86). His eighteenth canto doubles down on this motif: some of the damned are “snuffling with their snouts,” and this motion invokes the images of pigs, often associated with filth (104). “The banks...were coated with a mould/ offending eyes and nose” (104, 106-8). The flatterers and panderers dwell in excrement (113). What the absence of God suggests to Dante is filth and sickness, the inverse of the light and health with which he associates the divine.
 
@@ -48,7 +48,7 @@ And learn about man’s vices, and his worth…
 I and my shipmates had grown old and slow  
 By the time we reached the narrow strait  
 Where Hercules marked off the limits,  
-Warning all men to go no farther” (94-109).
+Warning all men to go no farther.” (94-109)
 
 Ulysses has been explicitly condemned to the circle of the fraudulent because of the Trojan Horse, but his final journey represents an implicit reason for punishment as well: Ulysses has pushed against the boundaries of mortality, seeking out knowledge reserved for the divine alone. Ulysses goes on to encourage his men to seek out the world where “no one lives,” a further implication of this realm’s prohibition against mortal knowledge (117). Here, Dante has placed Ulysses again beyond the ken of the divine, implicitly associating him with mortality, and further dissociating him from the privileges of divine knowledge. Ulysses admonishes the reluctance of his men: “Consider how your souls were sown/ you were not made to live like brutes or beasts/ but to pursue virtue and knowledge” (118-20). Here, Ulysses is implicitly encouraging the transgression of a boundary between the divine and the mortal. His pursuit of divine knowledge recalls the transgression of Adam and Eve, eating from the Tree of Knowledge of Good and Evil, and being subsequently brutally punished for their attempt to access something which can only be the province of God. The dashing to pieces of Ulysses’ ship represents the final divorce of this figure from any divine connections (138). Dante thoroughly reinforces Ulysses’ mortality and exclusion from the realm of the divine not merely with his God-ordained punishment in hell, but with his death, resulting as it does from Ulysses’ attempt to grasp an understanding from which he is excluded by dint of being mortal.     
 
