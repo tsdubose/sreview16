@@ -1,9 +1,6 @@
 @import "bourbon/bourbon";
 @import "base/base";
 
-// nav {
-// 	display: flex;
-// }
 body {
 	margin: 0;
 }
@@ -15,8 +12,8 @@ header {
 
 .main-nav {
 	display: flex;
-	justify-content: space-between;
-	padding: 0 $small-spacing;
+	justify-content: space-around;
+	padding: ($small-spacing / 2) ($small-spacing /2) 0;
 	background-color: black;
 
 	@include breakpoint($large-screen) {
@@ -24,7 +21,6 @@ header {
 	}
 
 	li {
-		margin-left: $small-spacing;
 		font-size: .8em;
 
 		@include breakpoint($large-screen) {
@@ -58,13 +54,6 @@ header {
 				height: $svg-desktop-size;
 			}
 		}
-	}
-
-	li:last-child {
-		margin-right: 0;
-		}
-	li:first-child {
-		margin-left: 0;
 	}
 }
 
@@ -159,7 +148,6 @@ article {
 .accent-image,
 .accent-text {
 	display: block;
-	max-height: $base-spacing * 4;
 	margin: $base-spacing 0;
 
 	@include breakpoint($large-screen) {
@@ -173,4 +161,94 @@ article {
 .accent-text {
 	color: $accent-text-color;
 	font-style: italic;
+}
+
+.cover-container {
+	padding: $small-spacing;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+	@include breakpoint($large-screen) {
+		height: 100%;
+		width: 60%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+.cover-child {
+	align-self: center;
+	margin-bottom: $small-spacing;
+
+	@include breakpoint($large-screen) {
+		width: 45%
+	}
+}
+
+.cover-masthead {
+	width: 70%;
+	position: relative;
+
+	@include breakpoint($large-screen) {
+		order: 2;
+		width: 49%;
+	}
+}
+
+.issue-info {
+	width: 20%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: $small-spacing;
+	position: relative;
+
+	h1 {
+		font-size: 1.236em;
+	}
+
+	@include breakpoint($large-screen) {
+		order: 3;
+		width: 32%;
+	}
+}
+
+.first-image,
+.second-image {
+	@include breakpoint($large-screen) {
+		order: 1;
+	}
+}
+
+.third-image,
+.fourth-image,
+.fifth-image {
+	display: none;
+	@include breakpoint($large-screen) {
+		display: block;
+	}
+}
+
+.third-image {
+	@include breakpoint($large-screen) {
+		order: 2;
+	}
+}
+
+.fourth-image,
+.fifth-image {
+	@include breakpoint($large-screen) {
+		order: 3;
+		width: 32%;
+	}
+}
+
+.cover-linker {
+	position:absolute;
+  width:100%;
+  height:100%;
+  top:0;
+  left: 0;
+  z-index: 1;
 }

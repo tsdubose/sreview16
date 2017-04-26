@@ -1,19 +1,29 @@
-extends includes/layout
+- var pageTitle = page.title || config.subtitle || ''
 
-block content
-    - var categoriesList = list_categories({ show_count: false })
-    - var tagsList = list_tags({ show_count: false })
-    - var archivesList = list_archives({ show_count: false })
-
-    div.archive
-      each post in site.posts.sort('date', -1).toArray()
-        .archive-item
-          div
-            if post.link
-                a.archive-item__link(href=url_for(post.link) target="_blank")
-                  span.archive-item__link__time(datetime=date_xml(post.date))= date(post.date)
-                  span.archive-item__link__title=post.title || 'No Title'
-            else
-                a.archive-item__link(href=url_for(post.path))
-                  span.archive-item__link__time(datetime=date_xml(post.date))= date(post.date)
-                  span.archive-item__link__title=post.title || 'No Title'
+doctype html
+html(lang=config.language)
+	head
+		meta(charset='UTF-8')
+		title= pageTitle
+		link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css")
+		link(rel="stylesheet", href="css/main.css")
+		<script src="https://use.typekit.net/tie2vbh.js"></script>
+		<script>try{Typekit.load({ async: true });}catch(e){}</script>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		style.
+			body {background-image: linear-gradient(-20deg, #616161 0%, #9bc5c3 100%); height: 100%; margin: 0; background-repeat: no-repeat; background-attachment: fixed;} html {height: 100%;}
+	body
+		div.cover-container
+			img.cover-child.first-image(src="img/coverpage1.jpg")
+			div.cover-masthead.cover-child
+				img(src="img/masthead.svg")
+				a(href="letterfromtheeditor.html")
+					span.cover-linker
+			div.issue-info.cover-child
+				h1 Spring 2017
+				a(href="letterfromtheeditor.html")
+					span.cover-linker
+			img.cover-child.second-image(src="img/coverpage2.jpg")
+			img.cover-child.third-image(src="img/coverpage3.jpg")
+			img.cover-child.fourth-image(src="img/coverpage4.jpg")
+			img.cover-child.fifth-image(src="img/coverpage5.jpg")
