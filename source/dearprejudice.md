@@ -3,7 +3,7 @@ title: Dear Prejudice
 author: Trinh Nyugen
 layout: article
 headerimage: img/header-dearprejudice.jpg
-accenttext: You make weapons out of words and more than once, aimed your sword at me. I try to fight back but your words do sting.
+accenttext: You make weapons out of words and, more than once, aimed your sword at me. I try to fight back but your words do sting.
 accentimage: img/accent-image-dearprejudice.jpg
 ---
 

@@ -10,7 +10,7 @@ hexo.extend.helper.register('parse5', function(string, picture, accentText){
 
 	if (accentText) {
 		var accentElement = parse5.parseFragment("<div class='accent-text'>" + accentText + "</div>");
-		newFrag.childNodes.splice(7, 0, accentElement.childNodes[0]);
+		newFrag.childNodes.splice(9, 0, accentElement.childNodes[0]);
 	}
 	return parse5.serialize(newFrag);
 });

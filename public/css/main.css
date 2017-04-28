@@ -201,13 +201,16 @@ h4,
 h5,
 h6 {
 	font-family: "kepler-std-display";
-	font-size: 1.333em;
 	line-height: 1.2;
-	margin: 0 0 0.88em;
+	margin: 0;
 }
 
 h1 {
-	font-size: 4.236em;
+	font-size: 2.236em;
+}
+
+h2 {
+	font-size: 1.633em;
 }
 
 p {
@@ -373,6 +376,7 @@ article {
 
 .masthead {
 	padding: 0;
+	position: relative;
 }
 
 @media only screen and (min-width: 960px) {
@@ -381,7 +385,7 @@ article {
 	}
 }
 
-.masthead svg {
+.masthead img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -390,7 +394,7 @@ article {
 }
 
 @media only screen and (min-width: 960px) {
-	.masthead svg {
+	.masthead img {
 		height: 8.8em;
 		margin-left: 8em;
 		margin-right: 0;
@@ -423,6 +427,7 @@ article {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
+	align-content: center;
 }
 
 @media only screen and (min-width: 960px) {
@@ -441,7 +446,7 @@ article {
 
 @media only screen and (min-width: 960px) {
 	.cover-child {
-		width: 45%;
+		max-width: 48%;
 	}
 }
 
@@ -453,7 +458,7 @@ article {
 @media only screen and (min-width: 960px) {
 	.cover-masthead {
 		order: 2;
-		width: 49%;
+		max-width: 49%;
 	}
 }
 
@@ -468,12 +473,14 @@ article {
 
 .issue-info h1 {
 	font-size: 1.236em;
+	color: #1565c0;
+	text-decoration: underline;
 }
 
 @media only screen and (min-width: 960px) {
 	.issue-info {
 		order: 3;
-		width: 32%;
+		width: 28%;
 	}
 }
 
@@ -519,6 +526,36 @@ article {
 	top: 0;
 	left: 0;
 	z-index: 1;
+}
+
+.footer {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 1.76em 1.76em;
+}
+
+@media only screen and (min-width: 960px) {
+	.footer {
+		justify-content: space-between;
+		width: 35.2em;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+.footer img {
+	width: 100%;
+	max-height: 7.04em;
+}
+
+@media only screen and (min-width: 960px) {
+	.footer img {
+		max-width: 33%;
+	}
+}
+
+.footer img:first-child {
+	margin-bottom: 0.88em;
 }
 
 /*# sourceMappingURL=main.css.map */

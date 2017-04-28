@@ -124,12 +124,13 @@ article {
 
 .masthead {
 	padding: 0;
+	position: relative;
 
 	@include breakpoint($large-screen) {
 		padding-left: $base-spacing;
 	}
 
-	svg {
+	img {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
@@ -168,6 +169,7 @@ article {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
+	align-content: center;
 
 	@include breakpoint($large-screen) {
 		height: 100%;
@@ -182,7 +184,7 @@ article {
 	margin-bottom: $small-spacing;
 
 	@include breakpoint($large-screen) {
-		width: 45%
+		max-width: 48%
 	}
 }
 
@@ -192,7 +194,7 @@ article {
 
 	@include breakpoint($large-screen) {
 		order: 2;
-		width: 49%;
+		max-width: 49%;
 	}
 }
 
@@ -206,11 +208,13 @@ article {
 
 	h1 {
 		font-size: 1.236em;
+		color: $action-color;
+		text-decoration: underline;
 	}
 
 	@include breakpoint($large-screen) {
 		order: 3;
-		width: 32%;
+		width: 28%;
 	}
 }
 
@@ -251,4 +255,29 @@ article {
   top:0;
   left: 0;
   z-index: 1;
+}
+
+.footer {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 $base-spacing $base-spacing;
+
+	@include breakpoint($large-screen) {
+		justify-content: space-between;
+		width: $base-spacing * 20;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	img {
+		width: 100%;
+		max-height: $base-spacing * 4;
+
+		@include breakpoint($large-screen) {
+			max-width: 33%;
+		}
+	}
+
+	img:first-child {
+		margin-bottom: $small-spacing;
+	}
 }
