@@ -4,25 +4,37 @@
 body {
 	margin: 0;
 }
+
 header {
 	padding-top: $base-spacing;
 	margin-bottom: $small-spacing;
-	background-image: linear-gradient(-20deg, #616161 0%, #9bc5c3 100%);
+	background-color: $header-background-color;
+	@include breakpoint($large-screen) {
+		display: flex;
+		justify-content: space-around;
+	}
+}
+
+nav {
+	@include breakpoint($large-screen) {
+		align-self: flex-end;
+	}
 }
 
 .main-nav {
 	display: flex;
 	justify-content: space-around;
-	padding: ($small-spacing / 2) ($small-spacing /2) 0;
-	background-color: black;
-
-	@include breakpoint($large-screen) {
+	padding: ($small-spacing / 2) ($small-spacing / 2);
+	font-family: $heading-font-family;
+	font-weight: $menu-font-weight;
+	@include breakpoint($medium-screen) {
 		padding: $small-spacing $base-spacing;
 	}
 
 	li {
-		font-size: .8em;
-
+		@include breakpoint($medium-screen) {
+			margin-right: $base-spacing;
+		}
 		@include breakpoint($large-screen) {
 			font-size: $base-font-size;
 		}
@@ -30,29 +42,12 @@ header {
 		a {
 			width: 100%;
 			height: 100%;
-			color: $menu-fill-color;
+			color: white;
 			transition: $base-transition;
 		}
 
-		a:hover{
-			color: $accent-text-color;
-			svg {
-				fill: $accent-text-color;
-			}
-		}
-		svg {
-			width: 30px;
-			height: 30px;
-			display: block;
-			margin-left: auto;
-			margin-right: auto;
-			transition: $base-transition;
-			fill: $menu-fill-color;
-
-			@include breakpoint($large-screen) {
-				width: $svg-desktop-size;
-				height: $svg-desktop-size;
-			}
+		a:hover {
+			color: $article-heading-color;
 		}
 	}
 }
@@ -63,7 +58,6 @@ article {
 
 .article-content {
 	padding: $base-spacing;
-
 	@include breakpoint($large-screen) {
 		width: $base-spacing * 20;
 		padding: $base-spacing 0 0;
@@ -71,12 +65,9 @@ article {
 		margin-right: auto;
 	}
 
-	 img {
+	img {
 		display: block;
-		margin-left: auto;
-		margin-right: auto;
-		margin-top: $small-spacing;
-		margin-bottom: $small-spacing;
+		margin: $small-spacing auto;
 		@include breakpoint($large-screen) {
 			float: right;
 			margin: $base-spacing 0 $base-spacing $base-spacing;
@@ -85,37 +76,22 @@ article {
 }
 
 .title-marquee {
-	background-size: 100%;
-	background-repeat: no-repeat;
 	padding: ($small-spacing / 2) $small-spacing;
 	margin-left: $base-spacing;
 	margin-right: $base-spacing;
-	height: 28vw;
+	background-size: cover;
 	@include breakpoint ($large-screen) {
-		height: 480px;
 		padding: $base-spacing;
-		background-size: cover;
 	}
+
 	h1 {
 		margin: 0;
 		font-family: $heading-font-family;
-		font-weight: $heading-font-weight;
-		font-style: italic;
-		font-size: 1.236em;
-		color: white;
-
-		@include breakpoint($large-screen) {
-			font-size: 2.236em
-		}
+		font-weight: $h1-font-weight;
 	}
 }
 
 .authorship {
-	padding: $small-spacing 0 0 $base-spacing;
-
-	@include breakpoint($large-screen) {
-		padding: $small-spacing $base-spacing;
-	}
 }
 
 .page-content {
@@ -125,24 +101,26 @@ article {
 .masthead {
 	padding: 0;
 	position: relative;
-
-	@include breakpoint($large-screen) {
+	@include breakpoint($medium-screen) {
 		padding-left: $base-spacing;
 	}
 
-	img {
+	svg {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
 		height: $base-spacing * 3;
 		margin-bottom: $small-spacing;
-
-		@include breakpoint($large-screen) {
+		fill: white;
+		transition: $base-transition;
+		max-width: 100%;
+		@include breakpoint($medium-screen) {
 			height: $base-spacing * 5;
-			margin-left: 8em;
-			margin-right: 0;
 		}
+	}
 
+	svg:hover {
+		fill: $article-heading-color;
 	}
 }
 
@@ -150,7 +128,6 @@ article {
 .accent-text {
 	display: block;
 	margin: $base-spacing 0;
-
 	@include breakpoint($large-screen) {
 		float: right;
 		width: 50%;
@@ -161,117 +138,22 @@ article {
 
 .accent-text {
 	color: $accent-text-color;
-	font-style: italic;
-}
-
-.cover-container {
-	padding: $small-spacing;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	align-content: center;
-
-	@include breakpoint($large-screen) {
-		height: 100%;
-		width: 60%;
-		margin-left: auto;
-		margin-right: auto;
-	}
-}
-
-.cover-child {
-	align-self: center;
-	margin-bottom: $small-spacing;
-
-	@include breakpoint($large-screen) {
-		max-width: 48%
-	}
-}
-
-.cover-masthead {
-	width: 70%;
-	position: relative;
-
-	@include breakpoint($large-screen) {
-		order: 2;
-		max-width: 49%;
-	}
-}
-
-.issue-info {
-	width: 20%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	margin-left: $small-spacing;
-	position: relative;
-
-	h1 {
-		font-size: 1.236em;
-		color: $action-color;
-		text-decoration: underline;
-	}
-
-	@include breakpoint($large-screen) {
-		order: 3;
-		width: 28%;
-	}
-}
-
-.first-image,
-.second-image {
-	@include breakpoint($large-screen) {
-		order: 1;
-	}
-}
-
-.third-image,
-.fourth-image,
-.fifth-image {
-	display: none;
-	@include breakpoint($large-screen) {
-		display: block;
-	}
-}
-
-.third-image {
-	@include breakpoint($large-screen) {
-		order: 2;
-	}
-}
-
-.fourth-image,
-.fifth-image {
-	@include breakpoint($large-screen) {
-		order: 3;
-		width: 32%;
-	}
-}
-
-.cover-linker {
-	position:absolute;
-  width:100%;
-  height:100%;
-  top:0;
-  left: 0;
-  z-index: 1;
 }
 
 .footer {
 	display: flex;
 	flex-wrap: wrap;
 	padding: 0 $base-spacing $base-spacing;
-
 	@include breakpoint($large-screen) {
 		justify-content: space-between;
 		width: $base-spacing * 20;
 		margin-left: auto;
 		margin-right: auto;
 	}
+
 	img {
 		width: 100%;
 		max-height: $base-spacing * 4;
-
 		@include breakpoint($large-screen) {
 			max-width: 33%;
 		}
@@ -280,4 +162,148 @@ article {
 	img:first-child {
 		margin-bottom: $small-spacing;
 	}
+}
+/*Layout for contents page*/
+.contents-wrapper {
+	padding: $small-spacing;
+}
+
+.contents-block {
+	min-height: $base-spacing * 5;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	margin-bottom: $small-spacing;
+	@include breakpoint($large-screen) {
+		max-width: 50%;
+		display: inline-flex;
+	}
+
+	* {
+		color: $article-heading-color;
+	}
+}
+.contents-linker {
+	position: relative;
+}
+.contents-linker:hover .contents-essay-title {
+	color: $article-heading-color;
+}
+.contents-linker:hover::after {
+	content: "";
+	content: " ";
+	z-index: 10;
+	display: block;
+	position: absolute;
+	height: $base-spacing * 5;
+	top: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+.contents-essay-title {
+	background-color: #333333cf;
+	z-index: 100;
+}
+@supports (display:grid) {
+	.contents-wrapper {
+		@include breakpoint($medium-screen) {
+			display: grid;
+			grid-gap: $small-spacing;
+			grid-template-columns: 1fr 1fr;
+			max-width: $base-spacing * 30;
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+
+	.contents-section {
+		@include breakpoint($medium-screen) {
+			grid-column: 1 / 3;
+		}
+	}
+
+	.contents-block {
+		background-image: url("../../img/header-dearprejudice.jpg");
+		background-size: cover;
+		@include breakpoint($medium-screen) {
+			max-width: initial;
+			display: flex;
+		}
+	}
+
+	.contents-title {
+		grid-column: 1/3;
+	}
+}
+/* Archives page */
+.archive-wrapper {
+	padding: $small-spacing;
+	@include breakpoint($large-screen) {
+		width: $base-spacing * 20;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+.archive-issue-title {
+	color: $base-font-color;
+}
+
+.archive-card {
+	padding: $small-spacing;
+	margin-bottom: $base-spacing;
+}
+
+.archive-card:hover > .archive-issue-title {
+	text-decoration: underline;
+}
+
+#seventeen-card {
+	background-color: #95bbb9;
+}
+
+#sixteen-card {
+	background-color: #970004;
+}
+/*Backgrounds for contents page. */
+#steve-contents {
+	background-image: url("../img/header-steve.jpg");
+}
+
+#riseabove-contents {
+	background-image: url("../img/header-toriseabove.jpg");
+}
+
+#poder-contents {
+	background-image: url("../img/header-elpoderenlaspalabras.jpg");
+}
+
+#garden-contents {
+	background-image: url("../img/header-oursecretgarden.jpg");
+}
+
+#darkside-contents {
+	background-image: url("../img/header-darksideofshowbusiness.jpg");
+}
+
+#foolsgold-contents {
+	background-image: url("../img/header-foolsgold.jpg");
+}
+
+#room-contents {
+	background-image: url("../img/header-room303.jpg");
+}
+
+#funhome-contents {
+	background-image: url("../img/header-funhome.jpg");
+}
+
+#willpower-contents {
+	background-image: url("../img/header-willpowerandfeminism.jpg");
+}
+
+#devil-contents {
+	background-image: url("../img/header-sympathyforthedevil.jpg");
 }
