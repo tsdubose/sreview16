@@ -191,7 +191,7 @@ article {
 	justify-content: flex-end;
 	margin-bottom: $small-spacing;
 	@include breakpoint($large-screen) {
-		max-width: 50%;
+		width: 50%;
 		display: inline-flex;
 	}
 
@@ -243,7 +243,7 @@ article {
 		background-image: url("../../img/header-dearprejudice.jpg");
 		background-size: cover;
 		@include breakpoint($medium-screen) {
-			max-width: initial;
+			width: initial;
 			display: flex;
 		}
 	}

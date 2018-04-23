@@ -336,7 +336,7 @@ article {
   margin-bottom: 0.96rem; }
   @media only screen and (min-width: 960px) {
     .contents-block {
-      max-width: 50%;
+      width: 50%;
       display: inline-flex; } }
   .contents-block * {
     color: #a3acb2; }
@@ -381,7 +381,7 @@ article {
     background-size: cover; }
     @media only screen and (min-width: 600px) {
       .contents-block {
-        max-width: initial;
+        width: initial;
         display: flex; } }
 
   .contents-title {
