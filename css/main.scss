@@ -76,13 +76,11 @@ article {
 }
 
 .title-marquee {
-	padding: ($small-spacing / 2) $small-spacing;
 	margin-left: $base-spacing;
 	margin-right: $base-spacing;
 	background-size: cover;
-	@include breakpoint ($large-screen) {
-		padding: $base-spacing;
-	}
+	position: relative;
+	height: $base-spacing * 10;
 
 	h1 {
 		margin: 0;
@@ -90,6 +88,16 @@ article {
 		font-weight: $h1-font-weight;
 	}
 }
+
+
+.article-attributions {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	padding: ($small-spacing / 2) $small-spacing;
+
+}
+
 
 .authorship {
 }
@@ -129,15 +137,23 @@ article {
 	display: block;
 	margin: $base-spacing 0;
 	@include breakpoint($large-screen) {
-		float: right;
 		width: 50%;
-		margin-left: $small-spacing;
 		max-height: none;
 	}
 }
 
 .accent-text {
 	color: $accent-text-color;
+	@include breakpoint($large-screen) {
+		float: left;
+		margin-right: $small-spacing;
+	}
+}
+.accentImage {
+	@include breakpoint($large-screen) {
+		float: right;
+		margin-left: $small-spacing;
+	}
 }
 
 .footer {
@@ -190,7 +206,6 @@ article {
 	color: $article-heading-color;
 }
 .contents-linker:hover::after {
-	content: "";
 	content: " ";
 	z-index: 10;
 	display: block;

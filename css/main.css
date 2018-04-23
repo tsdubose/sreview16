@@ -171,7 +171,7 @@ h2 {
   font-size: 1.633em; }
 
 p {
-  margin: 0 0 0.96rem; }
+  margin: 0 0 1.92rem; }
 
 a {
   color: #1565c0;
@@ -246,17 +246,21 @@ article {
         margin: 1.92rem 0 1.92rem 1.92rem; } }
 
 .title-marquee {
-  padding: 0.48rem 0.96rem;
   margin-left: 1.92rem;
   margin-right: 1.92rem;
-  background-size: cover; }
-  @media only screen and (min-width: 960px) {
-    .title-marquee {
-      padding: 1.92rem; } }
+  background-size: cover;
+  position: relative;
+  height: 19.2rem; }
   .title-marquee h1 {
     margin: 0;
     font-family: "Futura PT", sans-serif;
     font-weight: 900; }
+
+.article-attributions {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 0.48rem 0.96rem; }
 
 .masthead {
   padding: 0;
@@ -286,13 +290,20 @@ article {
   @media only screen and (min-width: 960px) {
     .accent-image,
     .accent-text {
-      float: right;
       width: 50%;
-      margin-left: 0.96rem;
       max-height: none; } }
 
 .accent-text {
   color: #e74f4e; }
+  @media only screen and (min-width: 960px) {
+    .accent-text {
+      float: left;
+      margin-right: 0.96rem; } }
+
+@media only screen and (min-width: 960px) {
+  .accentImage {
+    float: right;
+    margin-left: 0.96rem; } }
 
 .footer {
   display: flex;
@@ -337,7 +348,6 @@ article {
   color: #a3acb2; }
 
 .contents-linker:hover::after {
-  content: "";
   content: " ";
   z-index: 10;
   display: block;
