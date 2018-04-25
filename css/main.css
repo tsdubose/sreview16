@@ -393,7 +393,7 @@ article {
 /* Archives page */
 .archive-wrapper {
   padding: 0.96rem; }
-  @media only screen and (min-width: 960px) {
+  @media only screen and (min-width: 600px) {
     .archive-wrapper {
       width: 38.4rem;
       margin-left: auto;

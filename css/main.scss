@@ -258,7 +258,7 @@ article {
 /* Archives page */
 .archive-wrapper {
 	padding: $small-spacing;
-	@include breakpoint($large-screen) {
+	@include breakpoint($medium-screen) {
 		width: $base-spacing * 20;
 		margin-left: auto;
 		margin-right: auto;
