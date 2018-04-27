@@ -413,7 +413,7 @@ article {
   background-color: #95bbb9; }
 
 #sixteen-card {
-  background-color: #970004; }
+  background-color: #970004cc; }
 
 /*Backgrounds for contents page. */
 #steve-contents {
@@ -446,7 +446,37 @@ article {
 #devil-contents {
   background-image: url("../img/header-sympathyforthedevil.jpg"); }
 
+#editor-contents {
+  background-image: url("../img/header-letterfromtheeditor.jpg");
+  background-position-y: center;
+  background-repeat: no-repeat; }
+
 hr {
   clear: both; }
+
+.cover-page {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-image: url("../img/cover.jpg"); }
+  @media only screen and (min-width: 960px) {
+    .cover-page {
+      background-position-y: center; } }
+
+.cover-page svg {
+  width: 19.2rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  stroke: #fff9; }
+
+.issue-date {
+  font-family: "Futura PT", sans-serif;
+  font-size: 1.8rem;
+  color: #a3acb2;
+  text-align: center; }
+
+.subtitle {
+  font-family: "Futura PT", sans-serif; }
 
 /*# sourceMappingURL=main.css.map */
