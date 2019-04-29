@@ -3,6 +3,7 @@
 /* http://kenwheeler.github.io/slick/ */
 body {
 	margin: 0;
+	background-color: $base-background-color;
 }
 
 header {
@@ -44,12 +45,12 @@ main {
 		a {
 			width: 100%;
 			height: 100%;
-			color: white;
+			color: #c6ced4;
 			transition: $base-transition;
 		}
 
 		a:hover {
-			color: $article-heading-color;
+			color: white;
 		}
 	}
 }
@@ -62,7 +63,7 @@ article {
 	padding: $base-spacing;
 	@include breakpoint($large-screen) {
 		width: $base-spacing * 25;
-		padding: $base-spacing 0 0;
+		padding: $base-spacing;
 		margin-left: auto;
 		margin-right: auto;
 	}
@@ -73,6 +74,7 @@ article {
 		@include breakpoint($large-screen) {
 			float: right;
 			margin: $base-spacing 0 $base-spacing $base-spacing;
+			max-width: 50%;
 		}
 	}
 }
@@ -110,7 +112,7 @@ article {
 		margin-right: auto;
 		height: $base-spacing * 3;
 		margin-bottom: $small-spacing;
-		fill: white;
+		fill: $base-background-color;
 		transition: $base-transition;
 		max-width: 100%;
 		@include breakpoint($medium-screen) {
@@ -119,7 +121,7 @@ article {
 	}
 
 	svg:hover {
-		fill: $article-heading-color;
+		fill: white;
 	}
 }
 
@@ -148,7 +150,7 @@ article {
 .footer {
 	display: flex;
 	flex-wrap: wrap;
-	padding: 0 $base-spacing $base-spacing;
+	padding: $base-spacing;
 	@include breakpoint($large-screen) {
 		justify-content: space-between;
 		width: $base-spacing * 20;
@@ -286,47 +288,51 @@ article {
 }
 /*Backgrounds for contents page. */
 #theimportanceofmonsters-contents {
-	background-image: url("../img/header-theimportanceofmonsters.jpg")
+	background-image: url("../img/header-theimportanceofmonsters.jpg");
 }
 
 #skin-contents {
-	background-image: url("../img/header-skin.jpg")
+	background-image: url("../img/header-skin.jpg");
 }
 
 #getout-contents {
-	background-image: url("../img/header-getout.jpg")
+	background-image: url("../img/header-getout.jpg");
 }
 
 #contentofmyskin-contents {
-	background-image: url("../img/header-contentofmyskin.jpg")
+	background-image: url("../img/header-contentofmyskin.jpg");
 }
 
 #channeling-contents {
-	background-image: url("../img/header-channeling.jpg")
+	background-image: url("../img/header-channeling.jpg");
 }
 
 #mazurka-contents {
-	background-image: url("../img/header-mazurka.jpg")
+	background-image: url("../img/header-mazurka.jpg");
 }
 
 #lynnmolando-contents {
-	background-image: url("../img/header-thetaleoflynnmolando.jpg")
+	background-image: url("../img/header-thetaleoflynnmolando.jpg");
 }
 
 #yablon-contents {
-	background-image: url("../img/header-yabloninbetween.jpg")
+	background-image: url("../img/header-yabloninbetween.jpg");
 }
 
 #devilishwishes-contents {
-	background-image: url("../img/header-devilishwishes.jpg")
+	background-image: url("../img/header-devilishwishes.jpg");
 }
 
 #whoknowswhereshesfrom-contents {
-	background-image: url("../img/header-whoknowswhereshesfrom.jpg")
+	background-image: url("../img/header-whoknowswhereshesfrom.jpg");
 }
 
 #thecannolicatastrophe-contents {
-	background-image: url("../img/header-thecannolicatastrophe.jpg")
+	background-image: url("../img/header-thecannolicatastrophe.jpg");
+}
+
+#blacklake-contents {
+	background-image: url("../img/header-blacklake.jpg");	
 }
 hr {
 	clear: both;
@@ -362,4 +368,28 @@ hr {
 
 .subtitle {
 	font-family: $heading-font-family;
+}
+
+/*Yablon styling*/
+#yablon-content p,
+#yablon-content h2 {
+	border-left: 4px solid #ab2c2d;
+	padding-left: $small-spacing / 2;
+}
+
+#yablon-content h2 {
+	color: #ab2c2d;
+}
+
+#yablon-content h2:nth-child(5),
+#yablon-content p:nth-child(n+5):nth-child(-n+9) {
+	border-right: 4px solid black;
+	padding-right: $small-spacing / 2;
+	text-align: right;
+	border-left: none;
+	color: $base-font-color;
+}
+
+#yablon-content {
+	padding-bottom: $base-spacing;
 }
