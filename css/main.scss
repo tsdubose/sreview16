@@ -19,6 +19,10 @@ nav {
 	}
 }
 
+main {
+	background-color: $base-background-color;
+}
+
 .main-nav {
 	display: flex;
 	justify-content: space-around;
@@ -85,6 +89,10 @@ article {
 	margin: $base-spacing;
 }
 
+.authorship {
+	font-family: $heading-font-family;
+}
+
 .page-content {
 	@extend .article-content;
 }
@@ -115,12 +123,9 @@ article {
 	}
 }
 
-.accent-image,
 .accent-text {
-	display: block;
 	margin: $base-spacing 0;
 	@include breakpoint($large-screen) {
-		width: 50%;
 		max-height: none;
 	}
 }
@@ -130,10 +135,7 @@ article {
 	font-family: $heading-font-family;
 	font-size: $base-font-size * 1.25;
 	border-left: 3px solid $action-color;
-	@include breakpoint($large-screen) {
-		float: left;
-		margin-right: $small-spacing;
-	}
+	padding-left: $small-spacing / 2;
 }
 
 .accentImage {
@@ -209,7 +211,7 @@ article {
 		@include breakpoint($medium-screen) {
 			display: grid;
 			grid-gap: $small-spacing;
-			grid-template-columns: 1fr 1fr;
+			grid-template-columns: 50% 50%;
 			max-width: $base-spacing * 30;
 			margin-left: auto;
 			margin-right: auto;
@@ -218,7 +220,7 @@ article {
 
 	.contents-section {
 		@include breakpoint($medium-screen) {
-			grid-column: span 3;
+			grid-column: span 2;
 			text-align: center;
 		}
 	}
@@ -231,7 +233,7 @@ article {
 	}
 
 	.contents-title {
-		grid-column: span 3;
+		grid-column: span 2;
 		text-align: center;
 	}
 
@@ -283,52 +285,49 @@ article {
 	background-color: #970004cc;
 }
 /*Backgrounds for contents page. */
-#steve-contents {
-	background-image: url("../img/header-steve.jpg");
+#theimportanceofmonsters-contents {
+	background-image: url("../img/header-theimportanceofmonsters.jpg")
 }
 
-#riseabove-contents {
-	background-image: url("../img/header-toriseabove.jpg");
+#skin-contents {
+	background-image: url("../img/header-skin.jpg")
 }
 
-#poder-contents {
-	background-image: url("../img/header-elpoderenlaspalabras.jpg");
+#getout-contents {
+	background-image: url("../img/header-getout.jpg")
 }
 
-#garden-contents {
-	background-image: url("../img/header-oursecretgarden.jpg");
+#contentofmyskin-contents {
+	background-image: url("../img/header-contentofmyskin.jpg")
 }
 
-#darkside-contents {
-	background-image: url("../img/header-darksideofshowbusiness.jpg");
+#channeling-contents {
+	background-image: url("../img/header-channeling.jpg")
 }
 
-#foolsgold-contents {
-	background-image: url("../img/header-foolsgold.jpg");
+#mazurka-contents {
+	background-image: url("../img/header-mazurka.jpg")
 }
 
-#room-contents {
-	background-image: url("../img/header-room303.jpg");
+#lynnmolando-contents {
+	background-image: url("../img/header-thetaleoflynnmolando.jpg")
 }
 
-#funhome-contents {
-	background-image: url("../img/header-funhome.jpg");
+#yablon-contents {
+	background-image: url("../img/header-yabloninbetween.jpg")
 }
 
-#willpower-contents {
-	background-image: url("../img/header-willpowerandfeminism.jpg");
+#devilishwishes-contents {
+	background-image: url("../img/header-devilishwishes.jpg")
 }
 
-#devil-contents {
-	background-image: url("../img/header-sympathyforthedevil.jpg");
+#whoknowswhereshesfrom-contents {
+	background-image: url("../img/header-whoknowswhereshesfrom.jpg")
 }
 
-#editor-contents {
-	background-image: url("../img/header-letterfromtheeditor.jpg");
-	background-position-y: center;
-	background-repeat: no-repeat;
+#thecannolicatastrophe-contents {
+	background-image: url("../img/header-thecannolicatastrophe.jpg")
 }
-
 hr {
 	clear: both;
 }

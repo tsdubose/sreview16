@@ -1,6 +1,6 @@
 button, [type='button'], [type='reset'], [type='submit'] {
   appearance: none;
-  background-color: #1565c0;
+  background-color: #ab2c2d;
   border: 0;
   border-radius: 3px;
   color: #fff;
@@ -19,13 +19,13 @@ button, [type='button'], [type='reset'], [type='submit'] {
   vertical-align: middle;
   white-space: nowrap; }
   button:hover, button:focus, [type='button']:hover, [type='button']:focus, [type='reset']:hover, [type='reset']:focus, [type='submit']:hover, [type='submit']:focus {
-    background-color: #11519a;
+    background-color: #892324;
     color: #fff; }
   button:disabled, [type='button']:disabled, [type='reset']:disabled, [type='submit']:disabled {
     cursor: not-allowed;
     opacity: 0.5; }
     button:disabled:hover, [type='button']:disabled:hover, [type='reset']:disabled:hover, [type='submit']:disabled:hover {
-      background-color: #1565c0; }
+      background-color: #ab2c2d; }
 
 fieldset {
   background-color: transparent;
@@ -52,7 +52,7 @@ textarea {
 
 [type='color'], [type='date'], [type='datetime'], [type='datetime-local'], [type='email'], [type='month'], [type='number'], [type='password'], [type='search'], [type='tel'], [type='text'], [type='time'], [type='url'], [type='week'], input:not([type]), textarea {
   appearance: none;
-  background-color: #f2f2f2;
+  background-color: #d7d0d0;
   border: 1px solid #ddd;
   border-radius: 3px;
   box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06);
@@ -64,11 +64,11 @@ textarea {
   [type='color']:hover, [type='date']:hover, [type='datetime']:hover, [type='datetime-local']:hover, [type='email']:hover, [type='month']:hover, [type='number']:hover, [type='password']:hover, [type='search']:hover, [type='tel']:hover, [type='text']:hover, [type='time']:hover, [type='url']:hover, [type='week']:hover, input:not([type]):hover, textarea:hover {
     border-color: #b1b1b1; }
   [type='color']:focus, [type='date']:focus, [type='datetime']:focus, [type='datetime-local']:focus, [type='email']:focus, [type='month']:focus, [type='number']:focus, [type='password']:focus, [type='search']:focus, [type='tel']:focus, [type='text']:focus, [type='time']:focus, [type='url']:focus, [type='week']:focus, input:not([type]):focus, textarea:focus {
-    border-color: #1565c0;
-    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06), 0 0 5px rgba(18, 89, 169, 0.7);
+    border-color: #ab2c2d;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06), 0 0 5px rgba(151, 39, 40, 0.7);
     outline: none; }
   [type='color']:disabled, [type='date']:disabled, [type='datetime']:disabled, [type='datetime-local']:disabled, [type='email']:disabled, [type='month']:disabled, [type='number']:disabled, [type='password']:disabled, [type='search']:disabled, [type='tel']:disabled, [type='text']:disabled, [type='time']:disabled, [type='url']:disabled, [type='week']:disabled, input:not([type]):disabled, textarea:disabled {
-    background-color: #e6e6e6;
+    background-color: #ccc6c6;
     cursor: not-allowed; }
     [type='color']:disabled:hover, [type='date']:disabled:hover, [type='datetime']:disabled:hover, [type='datetime-local']:disabled:hover, [type='email']:disabled:hover, [type='month']:disabled:hover, [type='number']:disabled:hover, [type='password']:disabled:hover, [type='search']:disabled:hover, [type='tel']:disabled:hover, [type='text']:disabled:hover, [type='time']:disabled:hover, [type='url']:disabled:hover, [type='week']:disabled:hover, input:not([type]):disabled:hover, textarea:disabled:hover {
       border: 1px solid #ddd; }
@@ -174,11 +174,11 @@ p {
   margin: 0 0 2.24rem; }
 
 a {
-  color: #1565c0;
+  color: #ab2c2d;
   text-decoration: none;
   transition: color 150ms ease; }
   a:active, a:focus, a:hover {
-    color: #104c90; }
+    color: #802122; }
 
 hr {
   border-bottom: 1px solid #ddd;
@@ -193,11 +193,14 @@ body {
 
 header {
   padding-top: 2.24rem;
-  background-color: #e74f4e; }
+  background-color: #ab2c2d; }
 
 @media only screen and (min-width: 960px) {
   nav {
     align-self: flex-end; } }
+
+main {
+  background-color: #d7d0d0; }
 
 .main-nav {
   display: flex;
@@ -251,6 +254,9 @@ article {
   text-align: center;
   margin: 2.24rem; }
 
+.authorship {
+  font-family: "Georgia", serif; }
+
 .masthead {
   padding: 0;
   position: relative; }
@@ -272,25 +278,18 @@ article {
   .masthead svg:hover {
     fill: #a3acb2; }
 
-.accent-image,
 .accent-text {
-  display: block;
   margin: 2.24rem 0; }
   @media only screen and (min-width: 960px) {
-    .accent-image,
     .accent-text {
-      width: 50%;
       max-height: none; } }
 
 .accent-text {
-  color: #e74f4e;
+  color: #ab2c2d;
   font-family: "Georgia", serif;
   font-size: 1.75rem;
-  border-left: 3px solid #1565c0; }
-  @media only screen and (min-width: 960px) {
-    .accent-text {
-      float: left;
-      margin-right: 1.12rem; } }
+  border-left: 3px solid #ab2c2d;
+  padding-left: 0.56rem; }
 
 @media only screen and (min-width: 960px) {
   .accentImage {
@@ -353,14 +352,14 @@ article {
     .contents-wrapper {
       display: grid;
       grid-gap: 1.12rem;
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 50% 50%;
       max-width: 67.2rem;
       margin-left: auto;
       margin-right: auto; } }
 
   @media only screen and (min-width: 600px) {
     .contents-section {
-      grid-column: span 3;
+      grid-column: span 2;
       text-align: center; } }
 
   @media only screen and (min-width: 600px) {
@@ -369,7 +368,7 @@ article {
       display: flex; } }
 
   .contents-title {
-    grid-column: span 3;
+    grid-column: span 2;
     text-align: center; }
 
   .contents-linker:hover::after {
@@ -414,40 +413,38 @@ article {
   background-color: #970004cc; }
 
 /*Backgrounds for contents page. */
-#steve-contents {
-  background-image: url("../img/header-steve.jpg"); }
+#theimportanceofmonsters-contents {
+  background-image: url("../img/header-theimportanceofmonsters.jpg"); }
 
-#riseabove-contents {
-  background-image: url("../img/header-toriseabove.jpg"); }
+#skin-contents {
+  background-image: url("../img/header-skin.jpg"); }
 
-#poder-contents {
-  background-image: url("../img/header-elpoderenlaspalabras.jpg"); }
+#getout-contents {
+  background-image: url("../img/header-getout.jpg"); }
 
-#garden-contents {
-  background-image: url("../img/header-oursecretgarden.jpg"); }
+#contentofmyskin-contents {
+  background-image: url("../img/header-contentofmyskin.jpg"); }
 
-#darkside-contents {
-  background-image: url("../img/header-darksideofshowbusiness.jpg"); }
+#channeling-contents {
+  background-image: url("../img/header-channeling.jpg"); }
 
-#foolsgold-contents {
-  background-image: url("../img/header-foolsgold.jpg"); }
+#mazurka-contents {
+  background-image: url("../img/header-mazurka.jpg"); }
 
-#room-contents {
-  background-image: url("../img/header-room303.jpg"); }
+#lynnmolando-contents {
+  background-image: url("../img/header-thetaleoflynnmolando.jpg"); }
 
-#funhome-contents {
-  background-image: url("../img/header-funhome.jpg"); }
+#yablon-contents {
+  background-image: url("../img/header-yabloninbetween.jpg"); }
 
-#willpower-contents {
-  background-image: url("../img/header-willpowerandfeminism.jpg"); }
+#devilishwishes-contents {
+  background-image: url("../img/header-devilishwishes.jpg"); }
 
-#devil-contents {
-  background-image: url("../img/header-sympathyforthedevil.jpg"); }
+#whoknowswhereshesfrom-contents {
+  background-image: url("../img/header-whoknowswhereshesfrom.jpg"); }
 
-#editor-contents {
-  background-image: url("../img/header-letterfromtheeditor.jpg");
-  background-position-y: center;
-  background-repeat: no-repeat; }
+#thecannolicatastrophe-contents {
+  background-image: url("../img/header-thecannolicatastrophe.jpg"); }
 
 hr {
   clear: both; }
