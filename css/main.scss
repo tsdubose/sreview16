@@ -198,16 +198,24 @@ article {
 	position: relative;
 }
 
-.contents-linker:hover .contents-essay-title {
+.contents-linker:hover .contents-essay-title,
+ .contents-linker:hover .contents-essay-title {
 	color: $article-heading-color;
 }
 
-.contents-essay-title {
+.contents-essay-title,
+.contents-subtitle {
 	background-color: #333333cf;
 	z-index: 100;
-	position: absolute;
-	bottom: 0;
+	// position: absolute;
+	// bottom: 0;
+	padding-left: $small-spacing / 2;
 }
+
+.contents-subtitle {
+	margin: 0;
+}
+
 @supports (display:grid) {
 	.contents-wrapper {
 		@include breakpoint($medium-screen) {
@@ -332,7 +340,7 @@ article {
 }
 
 #blacklake-contents {
-	background-image: url("../img/header-blacklake.jpg");	
+	background-image: url("../img/header-blacklake.jpg");
 }
 hr {
 	clear: both;
@@ -392,4 +400,10 @@ hr {
 
 #yablon-content {
 	padding-bottom: $base-spacing;
+}
+
+.carousel-container {
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
 }

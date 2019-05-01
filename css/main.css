@@ -340,14 +340,18 @@ article {
 .contents-linker {
   position: relative; }
 
+.contents-linker:hover .contents-essay-title,
 .contents-linker:hover .contents-essay-title {
   color: #a3acb2; }
 
-.contents-essay-title {
+.contents-essay-title,
+.contents-subtitle {
   background-color: #333333cf;
   z-index: 100;
-  position: absolute;
-  bottom: 0; }
+  padding-left: 0.56rem; }
+
+.contents-subtitle {
+  margin: 0; }
 
 @supports (display: grid) {
   @media only screen and (min-width: 600px) {
@@ -501,5 +505,10 @@ hr {
 
 #yablon-content {
   padding-bottom: 2.24rem; }
+
+.carousel-container {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto; }
 
 /*# sourceMappingURL=main.css.map */
