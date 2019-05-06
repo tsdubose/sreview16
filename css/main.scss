@@ -30,8 +30,10 @@ main {
 	padding: ($small-spacing / 2) ($small-spacing / 2);
 	font-family: $heading-font-family;
 	font-weight: $menu-font-weight;
+	font-size: .8rem;
 	@include breakpoint($medium-screen) {
 		padding: $small-spacing $base-spacing;
+		font-size: $base-font-size;
 	}
 
 	li {
@@ -78,7 +80,26 @@ article {
 		}
 	}
 }
+.about-page {
+	padding: $base-spacing;
+	@include breakpoint($large-screen) {
+		width: $base-spacing * 25;
+		padding: $base-spacing;
+		margin-left: auto;
+		margin-right: auto;
+	}
 
+	h1, h2 {
+		margin-bottom: $small-spacing;
+	}
+	img {
+		height: $base-spacing * 8;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: $small-spacing;
+	}
+}
 .title-marquee {
 	background-size: cover;
 	position: relative;
@@ -245,6 +266,7 @@ article {
 	.contents-title {
 		grid-column: span 2;
 		text-align: center;
+		margin-bottom: $base-spacing;
 	}
 
 	.contents-linker:hover::after {
@@ -361,7 +383,7 @@ hr {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	fill: #fff;
+	fill: #ab2c2d;
 	@include breakpoint($large-screen) {
 		width: $base-spacing * 15;
 	}
@@ -370,7 +392,7 @@ hr {
 .issue-date {
 	font-family: $heading-font-family;
 	font-size: $base-font-size * 1.5;
-	color: $article-heading-color;
+	color: #ab2c2d;
 	text-align: center;
 }
 
@@ -403,9 +425,11 @@ hr {
 }
 
 .carousel-container {
-	width: 50%;
-	margin-left: auto;
-	margin-right: auto;
+		width: 50%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: $base-spacing;
+
 }
 
 .carousel-item {
@@ -416,4 +440,13 @@ hr {
 .home-article-title {
 	color: white;
 	text-align: center;
+	font-size: 10vh;
+}
+
+.home-wrapper {
+	padding-top: $base-spacing;
+}
+
+.letter-editor {
+	margin-bottom: $small-spacing;
 }

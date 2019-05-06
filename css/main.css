@@ -181,7 +181,7 @@ a {
     color: #802122; }
 
 hr {
-  border-bottom: 1px solid #ddd;
+  border-bottom: black;
   border-left: 0;
   border-right: 0;
   border-top: 0;
@@ -208,10 +208,12 @@ main {
   justify-content: space-around;
   padding: 0.56rem 0.56rem;
   font-family: "Georgia", serif;
-  font-weight: 400; }
+  font-weight: 400;
+  font-size: .8rem; }
   @media only screen and (min-width: 600px) {
     .main-nav {
-      padding: 1.12rem 2.24rem; } }
+      padding: 1.12rem 2.24rem;
+      font-size: 1.4rem; } }
   @media only screen and (min-width: 600px) {
     .main-nav li {
       margin-right: 2.24rem; } }
@@ -245,6 +247,23 @@ article {
         float: right;
         margin: 2.24rem 0 2.24rem 2.24rem;
         max-width: 50%; } }
+
+.about-page {
+  padding: 2.24rem; }
+  @media only screen and (min-width: 960px) {
+    .about-page {
+      width: 56rem;
+      padding: 2.24rem;
+      margin-left: auto;
+      margin-right: auto; } }
+  .about-page h1, .about-page h2 {
+    margin-bottom: 1.12rem; }
+  .about-page img {
+    height: 17.92rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1.12rem; }
 
 .title-marquee {
   background-size: cover;
@@ -375,7 +394,8 @@ article {
 
   .contents-title {
     grid-column: span 2;
-    text-align: center; }
+    text-align: center;
+    margin-bottom: 2.24rem; }
 
   .contents-linker:hover::after {
     content: " ";
@@ -472,7 +492,7 @@ hr {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  fill: #fff; }
+  fill: #ab2c2d; }
   @media only screen and (min-width: 960px) {
     .cover-page svg {
       width: 33.6rem; } }
@@ -480,7 +500,7 @@ hr {
 .issue-date {
   font-family: "Georgia", serif;
   font-size: 2.1rem;
-  color: #a3acb2;
+  color: #ab2c2d;
   text-align: center; }
 
 .subtitle {
@@ -509,7 +529,8 @@ hr {
 .carousel-container {
   width: 50%;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  margin-bottom: 2.24rem; }
 
 .carousel-item {
   height: 11.2rem;
@@ -517,6 +538,13 @@ hr {
 
 .home-article-title {
   color: white;
-  text-align: center; }
+  text-align: center;
+  font-size: 10vh; }
+
+.home-wrapper {
+  padding-top: 2.24rem; }
+
+.letter-editor {
+  margin-bottom: 1.12rem; }
 
 /*# sourceMappingURL=main.css.map */
