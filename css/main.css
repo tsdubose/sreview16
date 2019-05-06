@@ -181,7 +181,7 @@ a {
     color: #802122; }
 
 hr {
-  border-bottom: black;
+  border-bottom: black solid;
   border-left: 0;
   border-right: 0;
   border-top: 0;
@@ -501,7 +501,11 @@ hr {
   font-family: "Georgia", serif;
   font-size: 2.1rem;
   color: #ab2c2d;
-  text-align: center; }
+  text-align: center;
+  background: rgba(255, 255, 255, 0.4);
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto; }
 
 .subtitle {
   font-family: "Georgia", serif; }
@@ -539,7 +543,7 @@ hr {
 .home-article-title {
   color: white;
   text-align: center;
-  font-size: 10vh; }
+  font-size: 5vh; }
 
 .home-wrapper {
   padding-top: 2.24rem; }
